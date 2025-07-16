@@ -1,0 +1,8 @@
+-include "/home/zetadaemon/git/ue426/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/TraceLog/Definitions.h"
+-I"/home/zetadaemon/git/ue426/Engine/Source"
+-I"/home/zetadaemon/git/ue426/Engine/Source/Runtime/TraceLog/Private"
+-I"/home/zetadaemon/git/ue426/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TraceLog"
+-I"/home/zetadaemon/git/ue426/Engine/Source/Runtime"
+-I"/home/zetadaemon/git/ue426/Engine/Source/Runtime/TraceLog/Public"
+-I"/home/zetadaemon/git/ue426/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Core"
+-I"/home/zetadaemon/git/ue426/Engine/Source/Runtime/Core/Public"

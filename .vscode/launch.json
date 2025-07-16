@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "RoboQuest (Debug)",
+			"request": "launch",
+			"preLaunchTask": "RoboQuest Linux Debug Build",
+			"program": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Binaries/Linux/RoboQuest-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/zetadaemon/git/ue426",
+			"type": "lldb"
+		},
+		{
+			"name": "RoboQuest (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "RoboQuest Linux DebugGame Build",
+			"program": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Binaries/Linux/RoboQuest-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/zetadaemon/git/ue426",
+			"type": "lldb"
+		},
+		{
+			"name": "RoboQuest (Development)",
+			"request": "launch",
+			"preLaunchTask": "RoboQuest Linux Development Build",
+			"program": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Binaries/Linux/RoboQuest",
+			"args": [
+			],
+			"cwd": "/home/zetadaemon/git/ue426",
+			"type": "lldb"
+		},
+		{
+			"name": "RoboQuest (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "RoboQuest Linux Shipping Build",
+			"program": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Binaries/Linux/RoboQuest-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/zetadaemon/git/ue426",
+			"type": "lldb"
+		},
+		{
+			"name": "RoboQuest (Test)",
+			"request": "launch",
+			"preLaunchTask": "RoboQuest Linux Test Build",
+			"program": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Binaries/Linux/RoboQuest-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/zetadaemon/git/ue426",
+			"type": "lldb"
+		},
+		{
+			"name": "RoboQuestEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "RoboQuestEditor Linux Debug Build",
+			"program": "/home/zetadaemon/git/ue426/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"
+			],
+			"cwd": "/home/zetadaemon/git/ue426",
+			"type": "lldb"
+		},
+		{
+			"name": "RoboQuestEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "RoboQuestEditor Linux DebugGame Build",
+			"program": "/home/zetadaemon/git/ue426/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"
+			],
+			"cwd": "/home/zetadaemon/git/ue426",
+			"type": "lldb"
+		},
+		{
+			"name": "RoboQuestEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "RoboQuestEditor Linux Development Build",
+			"program": "/home/zetadaemon/git/ue426/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"
+			],
+			"cwd": "/home/zetadaemon/git/ue426",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/zetadaemon/git/ue426"
+		}
+	]
+}

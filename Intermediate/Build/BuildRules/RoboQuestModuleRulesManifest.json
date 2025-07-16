@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RoboQuest.Build.cs",
+		"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest.Target.cs",
+		"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuestEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}

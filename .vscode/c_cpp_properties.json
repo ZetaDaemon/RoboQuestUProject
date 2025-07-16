@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "RoboQuestEditor Editor Linux Development (RoboQuest)",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_RoboQuest.json"
+		},
+		{
+			"name": "Linux",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default.json"
+		}
+	]
+}

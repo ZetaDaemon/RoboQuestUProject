@@ -1,0 +1,124 @@
+﻿Log file open, 07/16/25 19:26:12
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 4 named threads and 9 total threads with 1 sets of task threads.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogInit: Build: ++UE4+Release-4.26-CL-0
+LogInit: Engine Version: 4.26.2-0+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-0+++UE4+Release-4.26
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Jul  3 2025 18:17:35
+LogInit: Compiled with Clang: 10.0.1 
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -Abslog="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Saved/Logs/RoboQuest-CRC.log" -Unattended "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Saved/Crashes/ensureinfo-RoboQuest-pid-61249-A9D08BA11E25430888A63C5146D6A9FD/"
+LogInit: Base Directory: /home/zetadaemon/git/ue426/Engine/Binaries/Linux/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/zetadaemon/.config/Epic/CrashReportClient/Saved/Config/Linux/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/home/zetadaemon/.config/Epic/CrashReportClient/Saved/Config/Linux/Engine.ini]
+[2025.07.16-09.26.13:077][  0]LogInit: Unix hardware info:
+[2025.07.16-09.26.13:077][  0]LogInit:  - we are the first instance of this executable
+[2025.07.16-09.26.13:078][  0]LogInit:  - this process' id (pid) is 61310, parent process' id (ppid) is 61249
+[2025.07.16-09.26.13:078][  0]LogInit:  - we are not running under debugger
+[2025.07.16-09.26.13:078][  0]LogInit:  - machine network name is 'zetadaemon-PC'
+[2025.07.16-09.26.13:078][  0]LogInit:  - user name is 'zetadaemon' (zetadaemon)
+[2025.07.16-09.26.13:078][  0]LogInit:  - we're logged in locally
+[2025.07.16-09.26.13:078][  0]LogInit:  - we're running with rendering
+[2025.07.16-09.26.13:078][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz' (signature: 0x906EA)
+[2025.07.16-09.26.13:078][  0]LogInit:  - Number of physical cores available for the process: 6
+[2025.07.16-09.26.13:078][  0]LogInit:  - Number of logical cores available for the process: 6
+[2025.07.16-09.26.13:078][  0]LogInit:  - Cache line size: 64
+[2025.07.16-09.26.13:078][  0]LogInit:  - Memory allocator used: binned2
+[2025.07.16-09.26.13:078][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2025.07.16-09.26.13:078][  0]LogInit:  - This is an internal build.
+[2025.07.16-09.26.13:078][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2025.07.16-09.26.13:078][  0]LogInit: Unix-specific commandline switches:
+[2025.07.16-09.26.13:078][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2025.07.16-09.26.13:078][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2025.07.16-09.26.13:078][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2025.07.16-09.26.13:078][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2025.07.16-09.26.13:078][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2025.07.16-09.26.13:078][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2025.07.16-09.26.13:078][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2025.07.16-09.26.13:078][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2025.07.16-09.26.13:078][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2025.07.16-09.26.13:078][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2025.07.16-09.26.13:078][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2025.07.16-09.26.13:078][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (15804 MB, 16183532 KB, 16571936768 bytes)
+[2025.07.16-09.26.13:078][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2025.07.16-09.26.13:078][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2025.07.16-09.26.13:089][  0]LogUObjectArray: 362 objects as part of root set at end of initial load.
+[2025.07.16-09.26.13:089][  0]LogUObjectAllocator: 62544 out of 0 bytes used by permanent object pool.
+[2025.07.16-09.26.13:089][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.07.16-09.26.13:090][  0]LogInit: Using OS detected language (en-AU).
+[2025.07.16-09.26.13:090][  0]LogInit: Using OS detected locale (en-AU).
+[2025.07.16-09.26.13:090][  0]LogTextLocalizationManager: No specific localization for 'en-AU' exists, so the 'en' localization will be used.
+[2025.07.16-09.26.13:100][  0]LogInit: Using OS detected language (en-AU).
+[2025.07.16-09.26.13:100][  0]LogInit: Using OS detected locale (en-AU).
+[2025.07.16-09.26.13:100][  0]LogTextLocalizationManager: No localization for 'en-AU' exists, so 'en' will be used for the language.
+[2025.07.16-09.26.13:100][  0]LogTextLocalizationManager: No localization for 'en-AU' exists, so 'en' will be used for the locale.
+[2025.07.16-09.26.13:101][  0]LogTextLocalizationManager: Compacting localization data took   0.65ms
+[2025.07.16-09.26.13:101][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000022 seconds
+[2025.07.16-09.26.13:101][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
+[2025.07.16-09.26.13:101][  0]CrashReportCoreLog: CrashReportReceiver disabled
+[2025.07.16-09.26.13:101][  0]CrashReportCoreLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2025.07.16-09.26.13:101][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2025.07.16-09.26.13:101][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2025.07.16-09.26.13:102][  0]LogCrashDebugHelper: DepotName: //UE4/Release-4.26
+[2025.07.16-09.26.13:102][  0]LogCrashDebugHelper: BuiltFromCL: 0
+[2025.07.16-09.26.13:102][  0]LogCrashDebugHelper: EngineVersion: 4.26.2-0+++UE4+Release-4.26
+[2025.07.16-09.26.13:102][  0]LogCrashDebugHelper: BuildVersion: ++UE4+Release-4.26-CL-0
+[2025.07.16-09.26.14:071][  0]CrashReportCoreLog: Got 4 pending files to upload from 'ensureinfo-RoboQuest-pid-61249-A9D08BA11E25430888A63C5146D6A9FD'
+[2025.07.16-09.26.14:071][  0]CrashReportCoreLog: State change from Ready to SendingFiles
+[2025.07.16-09.26.14:071][  0]CrashReportCoreLog: CompressAndSendData have 4 pending files
+[2025.07.16-09.26.14:072][  0]CrashReportCoreLog: CompressAndSendData compressing 44165 bytes ('/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Saved/Crashes/ensureinfo-RoboQuest-pid-61249-A9D08BA11E25430888A63C5146D6A9FD/RoboQuest.log')
+[2025.07.16-09.26.14:072][  0]CrashReportCoreLog: CompressAndSendData compressing 3200 bytes ('/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Saved/Crashes/ensureinfo-RoboQuest-pid-61249-A9D08BA11E25430888A63C5146D6A9FD/Diagnostics.txt')
+[2025.07.16-09.26.14:072][  0]CrashReportCoreLog: CompressAndSendData compressing 9019 bytes ('/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Saved/Crashes/ensureinfo-RoboQuest-pid-61249-A9D08BA11E25430888A63C5146D6A9FD/CrashContext.runtime-xml')
+[2025.07.16-09.26.14:072][  0]CrashReportCoreLog: CompressAndSendData compressing 107 bytes ('/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Saved/Crashes/ensureinfo-RoboQuest-pid-61249-A9D08BA11E25430888A63C5146D6A9FD/CrashReportClient.ini')
+[2025.07.16-09.26.14:087][  0]LogInit: Using libcurl 7.65.3-DEV
+[2025.07.16-09.26.14:087][  0]LogInit:  - built for x86_64-unknown-linux-gnu
+[2025.07.16-09.26.14:087][  0]LogInit:  - supports SSL with OpenSSL/1.1.1c
+[2025.07.16-09.26.14:087][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+[2025.07.16-09.26.14:087][  0]LogInit:  - other features:
+[2025.07.16-09.26.14:087][  0]LogInit:      CURL_VERSION_SSL
+[2025.07.16-09.26.14:087][  0]LogInit:      CURL_VERSION_LIBZ
+[2025.07.16-09.26.14:087][  0]LogInit:      CURL_VERSION_IPV6
+[2025.07.16-09.26.14:087][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2025.07.16-09.26.14:087][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2025.07.16-09.26.14:087][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+[2025.07.16-09.26.14:087][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2025.07.16-09.26.14:087][  0]LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+[2025.07.16-09.26.14:087][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2025.07.16-09.26.14:087][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2025.07.16-09.26.14:087][  0]LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+[2025.07.16-09.26.14:087][  0]LogInit:  - LocalHostAddr = Default
+[2025.07.16-09.26.14:087][  0]LogInit:  - BufferSize = 65536
+[2025.07.16-09.26.14:087][  0]CrashReportCoreLog: Sending HTTP request: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=CrashReporter&AppVersion=4.26.2-0%2B%2B%2BUE4%2BRelease-4.26&AppEnvironment=Release&UploadType=crashreports&UserID=434698a5d3794cb09b86d57e53a80203-000003e8%7C%7C434698a5d3794cb09b86d57e53a80203
+[2025.07.16-09.26.14:973][  0]CrashReportCoreLog: OnProcessRequestComplete(), State=SendingFiles bSucceeded=1
+[2025.07.16-09.26.14:973][  0]CrashReportCoreLog: State change from SendingFiles to SendingFiles
+[2025.07.16-09.26.14:973][  0]CrashReportCoreLog: All uploads done
+[2025.07.16-09.26.14:973][  0]CrashReportCoreLog: State change from SendingFiles to Finished
+[2025.07.16-09.26.15:107][  0]CrashReportCoreLog: Final state (Receiver) = Finished
+[2025.07.16-09.26.15:107][  0]CrashReportCoreLog: Final state (Receiver) = Unknown UploadState value
+[2025.07.16-09.26.15:107][  0]LogCore: Engine exit requested (reason: CrashReportClientApp RequestExit)
+[2025.07.16-09.26.15:107][  0]LogExit: Preparing to exit.
+[2025.07.16-09.26.15:107][  0]LogExit: Object subsystem successfully closed.
+[2025.07.16-09.26.15:108][  0]LogModuleManager: Shutting down and abandoning module HTTP (12)
+[2025.07.16-09.26.15:108][  0]LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2025.07.16-09.26.15:125][  0]LogModuleManager: Shutting down and abandoning module SSL (11)
+[2025.07.16-09.26.15:126][  0]LogModuleManager: Shutting down and abandoning module CrashDebugHelper (8)
+[2025.07.16-09.26.15:126][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+[2025.07.16-09.26.15:126][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2025.07.16-09.26.15:126][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2025.07.16-09.26.15:126][  0]LogExit: Exiting.
+[2025.07.16-09.26.15:139][  0]Log file closed, 07/16/25 19:26:15

@@ -1,0 +1,37 @@
+[
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeaponAffix.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_RoboQuest/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeaponAffix.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_RoboQuest/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RoboQuest.Build.cs",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_RoboQuest/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RoboQuest.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_RoboQuest/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RoboQuest.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_RoboQuest/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RoboQuestGameModeBase.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_RoboQuest/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RoboQuestGameModeBase.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_RoboQuest/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	}
+]

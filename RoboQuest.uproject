@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{E9ED5137-4F26-4482-9343-857CA27E44FA}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "RoboQuest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CoreUObject"
+			]
+		}
+	]
+}

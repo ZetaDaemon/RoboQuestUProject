@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "RoboQuest Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Mac",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"IOS",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"Linux",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"LinuxAArch64",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"Shipping",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuest TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuest TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuest",
+				"TVOS",
+				"Test",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Linux",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Linux",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuestEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Linux",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Linux",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Linux",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuestEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Linux",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Linux",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Linux",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuestEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Linux",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Mac",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Mac",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuestEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Mac",
+				"Debug",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Mac",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Mac",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuestEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Mac",
+				"DebugGame",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Mac",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Mac",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoboQuestEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		},
+		{
+			"label": "RoboQuestEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RoboQuestEditor",
+				"Mac",
+				"Development",
+				"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/zetadaemon/git/ue426"
+			}
+		}
+	]
+}

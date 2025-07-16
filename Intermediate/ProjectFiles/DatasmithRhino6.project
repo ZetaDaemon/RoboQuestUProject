@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="DatasmithRhino6">
+  <VirtualDirectory Name="on">
+    <VirtualDirectory Name="git">
+      <VirtualDirectory Name="ue426">
+        <VirtualDirectory Name="Engine">
+          <VirtualDirectory Name="Source">
+            <VirtualDirectory Name="Programs">
+              <VirtualDirectory Name="Enterprise">
+                <VirtualDirectory Name="Datasmith">
+                  <VirtualDirectory Name="DatasmithRhinoExporter">
+                    <File Name="/home/zetadaemon/git/ue426/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino6.Target.cs" />
+                    <File Name="/home/zetadaemon/git/ue426/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino6.Build.cs" />
+                    <VirtualDirectory Name="Private">
+                      <File Name="/home/zetadaemon/git/ue426/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/DatasmithRhinoMaterialExporter.cs" />
+                      <File Name="/home/zetadaemon/git/ue426/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/DatasmithRhinoMeshExporter.cs" />
+                      <File Name="/home/zetadaemon/git/ue426/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/DatasmithRhinoProgressManager.cs" />
+                      <File Name="/home/zetadaemon/git/ue426/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/DatasmithRhinoSceneExporter.cs" />
+                      <File Name="/home/zetadaemon/git/ue426/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/DatasmithRhinoSceneParser.cs" />
+                      <VirtualDirectory Name="Utils">
+                        <File Name="/home/zetadaemon/git/ue426/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Utils/DatasmithRhinoUtilities.cs" />
+                        <File Name="/home/zetadaemon/git/ue426/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Utils/UniqueNameGenerator.cs" />
+                      </VirtualDirectory>
+                    </VirtualDirectory>
+                    <VirtualDirectory Name="Properties">
+                      <File Name="/home/zetadaemon/git/ue426/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Properties/DefaultAssemblyInfo.cs" />
+                    </VirtualDirectory>
+                  </VirtualDirectory>
+                </VirtualDirectory>
+              </VirtualDirectory>
+            </VirtualDirectory>
+          </VirtualDirectory>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <File Name="/home/zetadaemon/git/ue426/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino6/DatasmithRhino.cs" />
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/zetadaemon/git/ue426/Engine/Binaries/Linux" Command="./DatasmithRhino6-Linux-Debug" />
+      <General WorkingDirectory="/home/zetadaemon/git/ue426/Engine/Binaries/Linux" Command="./DatasmithRhino6-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/zetadaemon/git/ue426/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Debug -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"</BuildCommand>
+        <CleanCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Debug -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Debug -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" -clean
+/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Debug -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/zetadaemon/git/ue426/Engine/Binaries/Linux" Command="./DatasmithRhino6-Linux-DebugGame" />
+      <General WorkingDirectory="/home/zetadaemon/git/ue426/Engine/Binaries/Linux" Command="./DatasmithRhino6-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/zetadaemon/git/ue426/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux DebugGame -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"</BuildCommand>
+        <CleanCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux DebugGame -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux DebugGame -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" -clean
+/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux DebugGame -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/zetadaemon/git/ue426/Engine/Binaries/Linux" Command="./DatasmithRhino6" />
+      <General WorkingDirectory="/home/zetadaemon/git/ue426/Engine/Binaries/Linux" Command="./DatasmithRhino6" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/zetadaemon/git/ue426/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Development -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"</BuildCommand>
+        <CleanCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Development -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Development -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" -clean
+/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Development -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/zetadaemon/git/ue426/Engine/Binaries/Linux" Command="./DatasmithRhino6-Linux-Shipping" />
+      <General WorkingDirectory="/home/zetadaemon/git/ue426/Engine/Binaries/Linux" Command="./DatasmithRhino6-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/zetadaemon/git/ue426/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Shipping -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"</BuildCommand>
+        <CleanCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Shipping -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Shipping -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" -clean
+/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Shipping -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/zetadaemon/git/ue426/Engine/Binaries/Linux" Command="./DatasmithRhino6-Linux-Test" />
+      <General WorkingDirectory="/home/zetadaemon/git/ue426/Engine/Binaries/Linux" Command="./DatasmithRhino6-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/zetadaemon/git/ue426/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Test -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"</BuildCommand>
+        <CleanCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Test -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Test -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" -clean
+/home/zetadaemon/git/ue426/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRhino6 Linux Test -project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

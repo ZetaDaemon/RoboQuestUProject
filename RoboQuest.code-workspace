@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "RoboQuest",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "/home/zetadaemon/git/ue426"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp",
+			"vadimcn.vscode-lldb",
+			"ms-vscode.mono-debug"
+		]
+	}
+}
