@@ -26,7 +26,6 @@
 #include "WeaponAffixData.h"
 #include "WeaponAffixRarity.h"
 #include "WeaponAffixRowHandle.h"
-#include "WeaponRunSaveGame.h"
 #include "WeaponSpecificHandPose.h"
 #include "AWeapon.generated.h"
 
@@ -41,7 +40,6 @@ class UAnimSequence;
 class UAudioComponent;
 class UCurveFloat;
 class UDataTable;
-class UDynamicCrosshairWidget;
 class UMaterialInstanceDynamic;
 class UMaterialInterface;
 class UModifier_Damage;
@@ -67,7 +65,6 @@ public:
     DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDelegatePocketReload);
     DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDelegateOverheat);
     DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FDelegateOnWarmupUpdate, float, WarmupRatio);
-    DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FDelegateOnUpdateCrosshair, const TSoftClassPtr<UDynamicCrosshairWidget>&, NewCrosshairClass);
     DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDelegateOnStartReload);
     DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDelegateOnReload);
     DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDelegateOnModIconLoaded);
@@ -198,12 +195,6 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 UpgradePriceReduction;
-    
-    UPROPERTY(BlueprintCallable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    FDelegateOnUpdateCrosshair DelegateOnUpdateCrosshair;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftClassPtr<UDynamicCrosshairWidget> CrosshairClass;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FVector2D CrosshairSizeAmplitude;
@@ -470,8 +461,6 @@ public:
     FWeaponAffixRarity CurrentAffixBundle;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    FWeaponRunSaveGame WeaponSavedData;
     
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

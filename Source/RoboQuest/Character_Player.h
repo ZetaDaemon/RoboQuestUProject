@@ -91,7 +91,6 @@ class AAInteractiveWeapon;
 class AAInteractive_WeaponSpawner;
 class AALightSelector;
 class AAPlayerController;
-class AASpline;
 class AAWeapon;
 class AActor;
 class ACharacter_Enemy;
@@ -513,12 +512,6 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     USoundCue* StopRideSoundHaptic;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    AASpline* CurrentRidingSpline;
-    
-    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    FDelegateOnRidingSpline DelegateOnRidingSpline;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftObjectPtr<UTexture2D> ClassIcon;

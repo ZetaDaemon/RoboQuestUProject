@@ -14,9 +14,6 @@
 #include "AStatManager.generated.h"
 
 class AActor;
-class UFloatingTextGeneratorComponent;
-class UHealthBarComponent;
-class UHealthBarWidget;
 class UMaterialInstanceDynamic;
 class UModifier_Stat;
 class UObject;
@@ -74,25 +71,16 @@ public:
     bool bHitFeedbackAlive;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftClassPtr<UHealthBarComponent> HealthBarComponentClass;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bHealthBar;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
-    UHealthBarComponent* HealthBarComponent;
     
 public:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftClassPtr<UFloatingTextGeneratorComponent> FloatingTextComponentClass;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bFloatingText;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
-    UFloatingTextGeneratorComponent* FloatingTextComponent;
     
 public:
     UAStatManager(const FObjectInitializer& ObjectInitializer);
@@ -112,8 +100,6 @@ public:
     void SpawnFloatingText(const FRQDamageInfo& DamageInfo);
     
 private:
-    UFUNCTION(BlueprintCallable)
-    void SetupHealthBar(UHealthBarWidget* HealthBar);
     
 public:
     UFUNCTION(BlueprintCallable)
@@ -221,12 +207,6 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     float GetHealthBarSize() const;
-    
-    UFUNCTION(BlueprintCallable, BlueprintPure)
-    UHealthBarWidget* GetHealthBar() const;
-    
-    UFUNCTION(BlueprintCallable, BlueprintPure)
-    UAGameInstance* GetGameInstanceRef();
     
     UFUNCTION(BlueprintCallable)
     void ConsumeDot(AActor* Instigator, float DamageModifier, EDot Dot);

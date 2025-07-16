@@ -2126,3 +2126,678 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2025.07.16-11.13.18:955][  8]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ASkill.h(811)  : Error: Unrecognized type 'FClientDamageInfo' - type must be a UCLASS, USTRUCT or UENUM
 [2025.07.16-11.13.18:955][  8]LogMainFrame: MainFrame: Module compiling took 7.828 seconds
 [2025.07.16-11.13.18:955][  8]Warning: HotReload failed, recompile failed
+[2025.07.16-11.14.49:428][383]Candidate modules for hot reload:
+[2025.07.16-11.14.49:429][383]  RoboQuest
+[2025.07.16-11.14.49:429][383]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,9157 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.14.49:429][383]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.14.57:332][479]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:14:57 am
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: 
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: Running Mono...
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: 
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: @progress pop
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.14.57:333][479]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.14.57:333][479]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ASkill.h(956)  : Error: Unrecognized type 'FPlayerSkillRow' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.14.57:333][479]LogMainFrame: MainFrame: Module compiling took 7.922 seconds
+[2025.07.16-11.14.57:333][479]Warning: HotReload failed, recompile failed
+[2025.07.16-11.15.16:750][695]Candidate modules for hot reload:
+[2025.07.16-11.15.16:750][695]  RoboQuest
+[2025.07.16-11.15.16:750][695]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,3643 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.15.16:751][695]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:15:24 am
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: 
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: Running Mono...
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: 
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: @progress pop
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.15.24:244][146]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.15.24:244][146]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PlayerSkillRow.h(154)  : Error: Unrecognized type 'FCost' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.15.24:244][146]LogMainFrame: MainFrame: Module compiling took 7.507 seconds
+[2025.07.16-11.15.24:244][146]Warning: HotReload failed, recompile failed
+[2025.07.16-11.15.50:765][520]Candidate modules for hot reload:
+[2025.07.16-11.15.50:765][520]  RoboQuest
+[2025.07.16-11.15.50:765][520]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,3380 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.15.50:766][520]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:15:58 am
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: 
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: Running Mono...
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: 
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: @progress pop
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.15.58:588][629]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.15.58:588][629]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PlayerSkillRow.h(217)  : Error: Unrecognized type 'ETriggerEffectType' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.15.58:588][629]LogMainFrame: MainFrame: Module compiling took 7.840 seconds
+[2025.07.16-11.15.58:588][629]Warning: HotReload failed, recompile failed
+[2025.07.16-11.16.59:267][810]Candidate modules for hot reload:
+[2025.07.16-11.16.59:267][810]  RoboQuest
+[2025.07.16-11.16.59:268][810]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,3717 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.16.59:268][810]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:17:06 am
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: 
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: Running Mono...
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: 
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: @progress pop
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.17.06:964][911]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.17.06:964][911]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PlayerSkillRow.h(519)  : Error: Unrecognized type 'FModAnimationRowHandle' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.17.06:964][911]LogMainFrame: MainFrame: Module compiling took 7.708 seconds
+[2025.07.16-11.17.06:964][911]Warning: HotReload failed, recompile failed
+[2025.07.16-11.17.22:812][989]Candidate modules for hot reload:
+[2025.07.16-11.17.22:812][989]  RoboQuest
+[2025.07.16-11.17.22:813][989]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,1589 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.17.22:813][989]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:17:30 am
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: 
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: Running Mono...
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: 
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.17.30:681][118]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.17.30:682][118]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.17.30:682][118]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.17.30:682][118]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.17.30:682][118]CompilerResultsLog: @progress pop
+[2025.07.16-11.17.30:682][118]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.17.30:682][118]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.17.30:682][118]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.17.30:682][118]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PlayerSkillRow.h(522)  : Error: Unrecognized type 'FOnomatopoeiaRowHandle' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.17.30:682][118]LogMainFrame: MainFrame: Module compiling took 7.885 seconds
+[2025.07.16-11.17.30:682][118]Warning: HotReload failed, recompile failed
+[2025.07.16-11.17.51:699][181]Candidate modules for hot reload:
+[2025.07.16-11.17.51:699][181]  RoboQuest
+[2025.07.16-11.17.51:699][181]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,9327 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.17.51:699][181]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:17:59 am
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: 
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: Running Mono...
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: 
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: @progress pop
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.17.59:316][256]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.17.59:316][256]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ASkillManager.h(45)  : Error: Unrecognized type 'FSkillInputBP' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.17.59:316][256]LogMainFrame: MainFrame: Module compiling took 7.628 seconds
+[2025.07.16-11.17.59:316][256]Warning: HotReload failed, recompile failed
+[2025.07.16-11.18.15:655][304]Candidate modules for hot reload:
+[2025.07.16-11.18.15:655][304]  RoboQuest
+[2025.07.16-11.18.15:655][304]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,8992 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.18.15:656][304]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:18:23 am
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: 
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: Running Mono...
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: 
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: @progress pop
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.18.23:475][509]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.18.23:475][509]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AStatManager.h(47)  : Error: Unrecognized type 'FStat' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.18.23:475][509]LogMainFrame: MainFrame: Module compiling took 7.828 seconds
+[2025.07.16-11.18.23:475][509]Warning: HotReload failed, recompile failed
+[2025.07.16-11.18.38:153][552]Candidate modules for hot reload:
+[2025.07.16-11.18.38:153][552]  RoboQuest
+[2025.07.16-11.18.38:154][552]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,2999 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.18.38:154][552]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:18:46 am
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: 
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: Running Mono...
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: 
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: @progress pop
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.18.46:134][614]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.18.46:134][614]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AStatManager.h(77)  : Error: Class 'UHealthBarComponent' not found.
+[2025.07.16-11.18.46:134][614]LogMainFrame: MainFrame: Module compiling took 7.993 seconds
+[2025.07.16-11.18.46:134][614]Warning: HotReload failed, recompile failed
+[2025.07.16-11.20.36:147][943]Candidate modules for hot reload:
+[2025.07.16-11.20.36:147][943]  RoboQuest
+[2025.07.16-11.20.36:147][943]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,20 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.20.36:147][943]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:20:43 am
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: 
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: Running Mono...
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: 
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: @progress pop
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.20.43:788][ 42]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AStatManager.h(82)  : Error: Class 'UFloatingTextGeneratorComponent' not found.
+[2025.07.16-11.20.43:788][ 42]LogMainFrame: MainFrame: Module compiling took 7.653 seconds
+[2025.07.16-11.20.43:789][ 42]Warning: HotReload failed, recompile failed
+[2025.07.16-11.21.58:466][265]Candidate modules for hot reload:
+[2025.07.16-11.21.58:466][265]  RoboQuest
+[2025.07.16-11.21.58:466][265]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,4072 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.21.58:466][265]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:22:06 am
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: 
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: Running Mono...
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: 
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: @progress pop
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.22.06:014][359]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.22.06:014][359]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AStatManager.h(203)  : Error: Unrecognized type 'FModifierValue' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.22.06:014][359]LogMainFrame: MainFrame: Module compiling took 7.557 seconds
+[2025.07.16-11.22.06:014][359]Warning: HotReload failed, recompile failed
+[2025.07.16-11.22.26:022][418]Candidate modules for hot reload:
+[2025.07.16-11.22.26:022][418]  RoboQuest
+[2025.07.16-11.22.26:022][418]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,3484 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.22.26:023][418]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:22:33 am
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: 
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: Running Mono...
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: 
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: @progress pop
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.22.33:785][506]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.22.33:785][506]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AStatManager.h(212)  : Error: Unrecognized type 'UAGameInstance' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.22.33:785][506]LogMainFrame: MainFrame: Module compiling took 7.772 seconds
+[2025.07.16-11.22.33:785][506]Warning: HotReload failed, recompile failed
+[2025.07.16-11.36.08:043][966]Candidate modules for hot reload:
+[2025.07.16-11.36.08:043][966]  RoboQuest
+[2025.07.16-11.36.08:043][966]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,9673 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.36.08:043][966]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:36:15 am
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: 
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: Running Mono...
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: 
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: @progress pop
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.36.15:748][124]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.36.15:748][124]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeapon.h(70)  : Error: Class 'UDynamicCrosshairWidget' not found.
+[2025.07.16-11.36.15:748][124]LogMainFrame: MainFrame: Module compiling took 7.724 seconds
+[2025.07.16-11.36.15:748][124]Warning: HotReload failed, recompile failed
+[2025.07.16-11.37.14:099][299]Candidate modules for hot reload:
+[2025.07.16-11.37.14:099][299]  RoboQuest
+[2025.07.16-11.37.14:099][299]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,8804 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.37.14:099][299]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:37:21 am
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: 
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: Running Mono...
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: 
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: @progress pop
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.37.21:960][390]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.37.21:960][390]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeapon.h(144)  : Error: Unrecognized type 'FWeaponAffixRowHandle' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.37.21:960][390]LogMainFrame: MainFrame: Module compiling took 7.871 seconds
+[2025.07.16-11.37.21:960][390]Warning: HotReload failed, recompile failed
+[2025.07.16-11.37.41:580][485]Candidate modules for hot reload:
+[2025.07.16-11.37.41:580][485]  RoboQuest
+[2025.07.16-11.37.41:580][485]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,4450 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.37.41:580][485]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:37:49 am
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: 
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: Running Mono...
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: 
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: @progress pop
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.37.49:460][598]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.37.49:460][598]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeapon.h(180)  : Error: Unrecognized type 'FAnimation' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.37.49:460][598]LogMainFrame: MainFrame: Module compiling took 7.893 seconds
+[2025.07.16-11.37.49:460][598]Warning: HotReload failed, recompile failed
+[2025.07.16-11.38.25:136][704]Candidate modules for hot reload:
+[2025.07.16-11.38.25:136][704]  RoboQuest
+[2025.07.16-11.38.25:136][704]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,2913 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.38.25:136][704]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:38:33 am
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: 
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: Running Mono...
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: 
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: @progress pop
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.38.33:336][816]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.38.33:336][816]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeapon.h(192)  : Error: Unrecognized type 'FWeaponSpecificHandPose' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.38.33:336][816]LogMainFrame: MainFrame: Module compiling took 8.210 seconds
+[2025.07.16-11.38.33:336][816]Warning: HotReload failed, recompile failed
+[2025.07.16-11.40.34:019][178]Candidate modules for hot reload:
+[2025.07.16-11.40.34:019][178]  RoboQuest
+[2025.07.16-11.40.34:019][178]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,9235 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.40.34:019][178]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:40:41 am
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: 
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: Running Mono...
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: 
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: @progress pop
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.40.41:665][292]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.40.41:665][292]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeapon.h(430)  : Error: Unrecognized type 'UModifier_Stat_Scale' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.40.41:665][292]LogMainFrame: MainFrame: Module compiling took 7.655 seconds
+[2025.07.16-11.40.41:665][292]Warning: HotReload failed, recompile failed
+[2025.07.16-11.41.10:008][376]Candidate modules for hot reload:
+[2025.07.16-11.41.10:008][376]  RoboQuest
+[2025.07.16-11.41.10:008][376]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,1420 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.41.10:008][376]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:41:18 am
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: 
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: Running Mono...
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: 
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: @progress pop
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.41.18:073][462]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.41.18:073][462]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeapon.h(450)  : Error: Unrecognized type 'FWeaponAffixData' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.41.18:073][462]LogMainFrame: MainFrame: Module compiling took 8.076 seconds
+[2025.07.16-11.41.18:073][462]Warning: HotReload failed, recompile failed
+[2025.07.16-11.41.36:744][517]Candidate modules for hot reload:
+[2025.07.16-11.41.36:744][517]  RoboQuest
+[2025.07.16-11.41.36:744][517]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,3528 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.41.36:744][517]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:41:44 am
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: 
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: Running Mono...
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: 
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: @progress pop
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.41.44:126][961]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.41.44:126][961]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeapon.h(462)  : Error: Unrecognized type 'FWeaponAffixRarity' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.41.44:126][961]LogMainFrame: MainFrame: Module compiling took 7.391 seconds
+[2025.07.16-11.41.44:126][961]Warning: HotReload failed, recompile failed
+[2025.07.16-11.41.56:371][125]Candidate modules for hot reload:
+[2025.07.16-11.41.56:371][125]  RoboQuest
+[2025.07.16-11.41.56:372][125]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,2003 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.41.56:372][125]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:42:03 am
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: 
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: Running Mono...
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: 
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: @progress pop
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.42.03:749][568]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.42.03:749][568]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeapon.h(466)  : Error: Unrecognized type 'FWeaponRunSaveGame' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.42.03:749][568]LogMainFrame: MainFrame: Module compiling took 7.388 seconds
+[2025.07.16-11.42.03:749][568]Warning: HotReload failed, recompile failed
+[2025.07.16-11.42.26:759][791]Candidate modules for hot reload:
+[2025.07.16-11.42.26:759][791]  RoboQuest
+[2025.07.16-11.42.26:759][791]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,6394 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.42.26:759][791]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.42.34:439][927]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:42:34 am
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: 
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: Running Mono...
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: 
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: @progress pop
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.42.34:440][927]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.42.34:440][927]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeapon.h(722)  : Error: Unrecognized type 'FWeaponAffix' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.42.34:440][927]LogMainFrame: MainFrame: Module compiling took 7.700 seconds
+[2025.07.16-11.42.34:440][927]Warning: HotReload failed, recompile failed
+[2025.07.16-11.43.50:455][154]Candidate modules for hot reload:
+[2025.07.16-11.43.50:455][154]  RoboQuest
+[2025.07.16-11.43.50:455][154]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,1237 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.43.50:455][154]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:43:58 am
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: 
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: Running Mono...
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: 
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: @progress pop
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.43.58:356][440]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.43.58:356][440]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnRidingSplineDelegate.h(7)  : Error: Unrecognized type 'AASpline' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.43.58:356][440]LogMainFrame: MainFrame: Module compiling took 7.914 seconds
+[2025.07.16-11.43.58:356][440]Warning: HotReload failed, recompile failed
+[2025.07.16-11.45.54:032][786]Candidate modules for hot reload:
+[2025.07.16-11.45.54:032][786]  RoboQuest
+[2025.07.16-11.45.54:032][786]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,8402 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.45.54:032][786]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:46:01 am
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: 
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: Running Mono...
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: 
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: @progress pop
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.46.01:951][864]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.46.01:951][864]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EquippedWeapon.h(16)  : Error: Unrecognized type 'AAInteractiveWeapon' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.46.01:951][864]LogMainFrame: MainFrame: Module compiling took 7.929 seconds
+[2025.07.16-11.46.01:951][864]Warning: HotReload failed, recompile failed
+[2025.07.16-11.46.23:307][928]Candidate modules for hot reload:
+[2025.07.16-11.46.23:307][928]  RoboQuest
+[2025.07.16-11.46.23:307][928]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,8251 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.46.23:307][928]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:46:28 am
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: 
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: Running Mono...
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: 
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: @progress pop
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.46.28:061][983]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.46.28:061][983]CompilerResultsLog: Error: Couldn't find parent type for 'AInteractiveWeapon' named 'AAInteractiveLootable' in current module (Package: /Script/RoboQuest) or any other module parsed so far.
+[2025.07.16-11.46.28:061][983]LogMainFrame: MainFrame: Module compiling took 4.770 seconds
+[2025.07.16-11.46.28:062][983]Warning: HotReload failed, recompile failed
+[2025.07.16-11.47.05:567][106]Candidate modules for hot reload:
+[2025.07.16-11.47.05:567][106]  RoboQuest
+[2025.07.16-11.47.05:567][106]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,9014 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.47.05:568][106]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:47:13 am
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: 
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: Running Mono...
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: 
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: @progress pop
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.47.13:448][368]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.47.13:448][368]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EquippedWeapon.h(16)  : Error: Unrecognized type 'AAInteractiveWeapon' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.47.13:448][368]LogMainFrame: MainFrame: Module compiling took 7.900 seconds
+[2025.07.16-11.47.13:448][368]Warning: HotReload failed, recompile failed
+[2025.07.16-11.47.31:791][422]Candidate modules for hot reload:
+[2025.07.16-11.47.31:791][422]  RoboQuest
+[2025.07.16-11.47.31:791][422]Launching UnrealBuildTool... [/home/zetadaemon/git/ue426/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RoboQuest,6865 RoboQuestEditor Linux Development -Project="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject"  -IgnoreJunk -progress]
+[2025.07.16-11.47.31:791][422]Warning: Starting HotReload took  0.0s.
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: New page: Compilation - 17 Jul 2025, 7:47:39 am
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: 
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: Running Mono...
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: 
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: Setting up Mono
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: ~/git/ue426/Engine ~/git/ue426/Engine/Binaries/Linux
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/git/ue426).
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/zetadaemon/Documents/Unreal Projects/RoboQuest).
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: Invalidating makefile for RoboQuestEditor (source file added)
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: @progress push 5%
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: @progress 'Generating code...' 0%
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: @progress 'Generating code...' 67%
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: @progress 'Generating code...' 100%
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: @progress pop
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: @progress 'Generating code...' 33%
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: Parsing headers for RoboQuestEditor
+[2025.07.16-11.47.39:384][499]CompilerResultsLog:   Running UnrealHeaderTool "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/RoboQuest.uproject" "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/RoboQuestEditor/Development/RoboQuestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/zetadaemon/git/ue426/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+[2025.07.16-11.47.39:384][499]CompilerResultsLog: Error: /home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Character_Player.h(205)  : Error: Unrecognized type 'AAPlayerController' - type must be a UCLASS, USTRUCT or UENUM
+[2025.07.16-11.47.39:384][499]LogMainFrame: MainFrame: Module compiling took 7.603 seconds
+[2025.07.16-11.47.39:384][499]Warning: HotReload failed, recompile failed

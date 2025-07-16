@@ -25,9 +25,6 @@ void UAStatManager::SpawnHealthBarComponent() {
 void UAStatManager::SpawnFloatingText(const FRQDamageInfo& DamageInfo) {
 }
 
-void UAStatManager::SetupHealthBar(UHealthBarWidget* HealthBar) {
-}
-
 void UAStatManager::SetStatValue(EStat enumStat, float NewValue, bool KeepCurrentRatio) {
 }
 
@@ -145,14 +142,6 @@ float UAStatManager::GetModifiedValue(EStat TargetStat, float InitialValue, bool
 
 float UAStatManager::GetHealthBarSize() const {
     return 0.0f;
-}
-
-UHealthBarWidget* UAStatManager::GetHealthBar() const {
-    return NULL;
-}
-
-UAGameInstance* UAStatManager::GetGameInstanceRef() {
-    return NULL;
 }
 
 void UAStatManager::ConsumeDot(AActor* Instigator, float DamageModifier, EDot Dot) {
