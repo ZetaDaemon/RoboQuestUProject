@@ -8,9 +8,7 @@ UAStatManager::UAStatManager(const FObjectInitializer& ObjectInitializer) : Supe
     this->bHitFeedback = false;
     this->bHitFeedbackAlive = false;
     this->bHealthBar = false;
-    this->HealthBarComponent = NULL;
     this->bFloatingText = false;
-    this->FloatingTextComponent = NULL;
 }
 
 void UAStatManager::UpdateStatusDuration(EStatus Status, float AddValue) {

@@ -1,5 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "ACharacter.h"
+#include "IReplicatedActor.h"
+#include "ISpawnable.h"
 #include "Templates/SubclassOf.h"
 #include "Character_AI.generated.h"
 

@@ -35,7 +35,6 @@
 #include "DelegateOnInteractErrorDelegate.h"
 #include "DelegateOnLandedDelegate.h"
 #include "DelegateOnReloadDelegate.h"
-#include "DelegateOnRidingSplineDelegate.h"
 #include "DelegateOnSkillNotifyDelegate.h"
 #include "DelegateOnStartDashDelegate.h"
 #include "DelegateOnTakeHealbotDelegate.h"
@@ -72,7 +71,6 @@
 #include "IReplicatedActor.h"
 #include "Item.h"
 #include "ItemBundle.h"
-#include "LocalPlayerData.h"
 #include "LootRowHandle.h"
 #include "MetaReward.h"
 #include "Onomatopoeia.h"
@@ -85,11 +83,6 @@
 #include "Templates/SubclassOf.h"
 #include "Character_Player.generated.h"
 
-class AADoor;
-class AAInteractiveSecretRuins;
-class AAInteractiveWeapon;
-class AAInteractive_WeaponSpawner;
-class AALightSelector;
 class AAPlayerController;
 class AAWeapon;
 class AActor;
@@ -98,7 +91,6 @@ class ACharacter_Player;
 class ASummonStaticMesh;
 class UAArtefact;
 class UAItem;
-class UAPlayerAnimInstance;
 class UASkill;
 class UAStatManager;
 class UATrigger;
@@ -106,14 +98,9 @@ class UATriggerMultiple;
 class UAnimInstance;
 class UAnimMontage;
 class UAudioComponent;
-class UBossHealthBarWidget;
 class UCameraComponent;
-class UCompassWidget;
 class UCurveFloat;
 class UDataTable;
-class UHUDIngameWidget;
-class UItemIconWidget;
-class UMapWidget;
 class UMaterialInstanceDynamic;
 class UMaterialInterface;
 class UMaterialParameterCollection;
@@ -121,12 +108,8 @@ class UModifier_Damage;
 class UModifier_Stat;
 class UModifier_Stat_Scale;
 class UModifier_Stat_Scale_Level;
-class UOverlay;
-class UPanelWidget;
 class UParticleSystem;
 class UParticleSystemComponent;
-class UPerkFeedbackWidget;
-class UPerkIconWidget;
 class UPrimitiveComponent;
 class USkeletalMesh;
 class USkeletalMeshComponent;
@@ -138,9 +121,6 @@ class UTexture;
 class UTexture2D;
 class UTrigger_Skill;
 class UTrigger_Weapon;
-class UUserWidget;
-class UVerticalBox;
-class UWeaponTooltipWidget;
 
 UCLASS(Blueprintable)
 class ROBOQUEST_API ACharacter_Player : public AACharacter, public IIBlower, public IIReplicatedActor {
@@ -537,15 +517,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TMap<FName, float> CustomFloatProperties;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TSubclassOf<UUserWidget> ClassWidget;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TSubclassOf<UUserWidget> SubCrosshairWidget;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TSubclassOf<UUserWidget> IconWidget;
-    
     UPROPERTY(BlueprintCallable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FDelegateOnUnlockClass DelegateOnUnlockClass;
     
@@ -829,11 +800,6 @@ public:
     FDelegateBeingResurected DelegateBeingResurected;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TSubclassOf<UMapWidget> MapWidget;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TSubclassOf<UMapWidget> MiniMapWidget;
     
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
@@ -963,24 +929,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 FOV;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftClassPtr<UHUDIngameWidget> HUDIngameWidgetClass;
-    
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TSubclassOf<UPerkFeedbackWidget> PerkFeedbackMainWidgetClass;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TSubclassOf<UPerkFeedbackWidget> PerkFeedbackSubWidgetClass;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TSubclassOf<UPerkIconWidget> PerkIconWidgetClass;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TSubclassOf<UItemIconWidget> ItemIconWidgetClass;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
-    TArray<UItemIconWidget*> ItemIconWidgets;
     
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
@@ -1164,8 +1113,6 @@ public:
     float SummonLifetimeMultiplier;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
-    UVerticalBox* HUDVBoxSummonBarRef;
     
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -1378,8 +1325,6 @@ public:
     bool bCodeDoorUnlocked;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TArray<AAInteractiveSecretRuins*> InteractiveSecretRuins;
     
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -1395,8 +1340,6 @@ public:
     FDelegateOnPlayersReady DelegateOnPlayersReady;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TArray<AADoor*> OneWayDoorsCrossed;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     UDataTable* DT_MetaRewards;
@@ -1761,8 +1704,6 @@ public:
     float StaticChargeGenerationSpeedRatio;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    AALightSelector* LightSelectorRef;
     
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -1864,9 +1805,6 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SpendWrench(int32 Amount);
-    
-    UFUNCTION(BlueprintCallable)
-    void SpawnWeaponOnWeaponSpawner(AAInteractive_WeaponSpawner* WeaponSpawnerRef, const TSoftClassPtr<AAWeapon>& WeaponClass);
     
     UFUNCTION(BlueprintCallable)
     void SpawnBaseWeapon();
@@ -2144,9 +2082,6 @@ public:
     void OnServerSplineEvent(const FVector& ForwardVector, const FHitResult& SweepResult);
     
     UFUNCTION(BlueprintCallable, Reliable, Server, WithValidation)
-    void OnServerSpawnWeaponOnWeaponSpawner(AAInteractive_WeaponSpawner* WeaponSpawnerRef, const TSoftClassPtr<AAWeapon>& WeaponClass);
-    
-    UFUNCTION(BlueprintCallable, Reliable, Server, WithValidation)
     void OnServerSkillAskFromStopReplicateRandomSeed(UASkill* Skill);
     
     UFUNCTION(BlueprintCallable, Reliable, Server, WithValidation)
@@ -2186,8 +2121,6 @@ public:
     void OnServerSendLocalKillTarget(FVector_NetQuantize TargetLocation);
     
 private:
-    UFUNCTION(BlueprintCallable, Reliable, Server, WithValidation)
-    void OnServerSendLocalData(const FLocalPlayerData& Data);
     
 public:
     UFUNCTION(BlueprintCallable, Reliable, Server, WithValidation)
@@ -2505,8 +2438,6 @@ public:
     void OnItemLoaded(TSoftClassPtr<UAItem> ItemPtr, FName ItemRowName, FName InBaseItemRowName, EItemType ItemType, int32 RandomSeed, bool bFromRunSave);
     
 private:
-    UFUNCTION(BlueprintCallable)
-    void OnInteractiveSecretRuinsDestroyed(AActor* Actor);
     
     UFUNCTION(BlueprintCallable)
     void OnHookingEnemyDestroyed(AActor* HookingEnemy);
@@ -2531,8 +2462,6 @@ public:
     void OnEquipWeaponFromSpecificPool(const FName& WeaponRowName, int32 WeaponLevel);
     
 private:
-    UFUNCTION(BlueprintCallable)
-    void OnEquippedInteractiveWeaponDestroyed(AActor* InteractiveWeaponActor);
     
 public:
     UFUNCTION(BlueprintCallable)
@@ -2566,9 +2495,6 @@ public:
     
     UFUNCTION(BlueprintCallable)
     void OnEndPickupSpeed();
-    
-    UFUNCTION(BlueprintCallable)
-    void OnEndInitializeLocalData(const FLocalPlayerData& LocalData);
     
     UFUNCTION(BlueprintCallable)
     void OnEndDialog(FName RowName, bool bCancelled);
@@ -2642,9 +2568,6 @@ public:
     void OnBlueprintStartIris2BossFight();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void OnBlueprintStartDeathAnimationWidget();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnBlueprintShowPerkIcons(bool bShow);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
@@ -2669,16 +2592,10 @@ public:
     void OnBlueprintShowCompass(bool bShow);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void OnBlueprintSetWeaponListVisibility(ESlateVisibility InVisibility);
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnBlueprintSetTooltipCurrentWeaponVisibility(bool bNewVisibility);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnBlueprintSetNewLevelOnHUD(const FText& LevelName, int32 RandomSeed);
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void OnBlueprintSetNewInteractiveText(const FText& NewText);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnBlueprintSetLeashed(bool bIsLeashed);
@@ -2697,9 +2614,6 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnBlueprintSendLocalData();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void OnBlueprintRemoveInteractiveText();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnBlueprintPingOnCooldown();
@@ -2722,41 +2636,8 @@ public:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnBlueprintHideQuestGoalsBar();
     
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UBossHealthBarWidget* OnBlueprintGetUnlockTextWidget();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UWeaponTooltipWidget* OnBlueprintGetTooltipCurrentWeapon();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UOverlay* OnBlueprintGetOverlaySkillIcon();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UOverlay* OnBlueprintGetOverlayMiniMapContainer();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UOverlay* OnBlueprintGetOverlayMapContainer();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UOverlay* OnBlueprintGetOverlayCompassContainer();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UOverlay* OnBlueprintGetOverlayClassSubCrosshair();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UOverlay* OnBlueprintGetOverlayClass();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UPanelWidget* OnBlueprintGetMainHUDPanel();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UBossHealthBarWidget* OnBlueprintGetBossHealthBar();
-    
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnBlueprintFalling();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void OnBlueprintEndDeathAnimationWidget();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnBlueprintDash(FVector InDashLocation);
@@ -2766,9 +2647,6 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnBlueprintAddNewQuestGoal(uint8 ID, const TSoftObjectPtr<UTexture2D>& IconOn, const TSoftObjectPtr<UTexture2D>& IconOff);
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void OnBlueprintAddCompassWidgetToHUD(UCompassWidget* CompassWidget);
     
     UFUNCTION(BlueprintCallable, Reliable, Server, WithValidation)
     void NotifyServerPreviousLevelUnloaded();
@@ -2889,9 +2767,6 @@ public:
     UFUNCTION(BlueprintCallable, BlueprintPure)
     ESprintMode GetSprintMode() const;
     
-    UFUNCTION(BlueprintCallable, BlueprintPure)
-    FSurfaceSoundAndFx GetSoundsAndFXBySurface(TEnumAsByte<EPhysicalSurface> SurfaceType) const;
-    
 protected:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     TSubclassOf<UModifier_Damage> GetSentinelBashDamageModifierClass();
@@ -2955,9 +2830,6 @@ public:
     float GetMaxStaticChargeDuration();
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
-    AALightSelector* GetLightSelectorRef() const;
-    
-    UFUNCTION(BlueprintCallable, BlueprintPure)
     EIntensity GetLandIntensity();
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
@@ -2978,19 +2850,9 @@ public:
     UFUNCTION(BlueprintCallable)
     FItemBundle GetItemBundleFromRowName(FName ItemRowName);
     
-    UFUNCTION(BlueprintCallable)
-    AAInteractiveSecretRuins* GetInteractiveSecretRuins(uint8 ID);
-    
 protected:
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    UVerticalBox* GetHUDVBoxSummonBarBP();
     
 public:
-    UFUNCTION(BlueprintCallable, BlueprintPure)
-    UVerticalBox* GetHUDVBoxSummonBar();
-    
-    UFUNCTION(BlueprintCallable, BlueprintPure)
-    UHUDIngameWidget* GetHUDIngameWidget();
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     UAnimMontage* GetHitAnimation(EIntensity Intensity, EDirection Direction);
@@ -3076,9 +2938,6 @@ public:
     UAArtefact* GetArtefactByClass(TSubclassOf<UAArtefact> ArtefactClass) const;
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
-    UAPlayerAnimInstance* GetAnimInstanceByType(EAnimationType Type);
-    
-    UFUNCTION(BlueprintCallable, BlueprintPure)
     TArray<FPlayerClassRow> GetAllPlayerClassDatas() const;
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
@@ -3100,9 +2959,6 @@ public:
     void ExtractDatatable(UAStatManager* PlayerStatManager);
     
     UFUNCTION(BlueprintCallable)
-    void EquipWeapon(AAWeapon* Weapon, AAInteractiveWeapon* InteractiveWeapon, bool bSwitchOn, bool bEraseCurrentWeapon);
-    
-    UFUNCTION(BlueprintCallable)
     void EndAction(EAction Action, bool bIsCancel);
     
     UFUNCTION(BlueprintCallable)
@@ -3110,15 +2966,6 @@ public:
     
     UFUNCTION(BlueprintCallable)
     void DelayedOnTakeHealbot();
-    
-    UFUNCTION(BlueprintCallable)
-    void CreateWidgetPerkIcon(const TSoftObjectPtr<UTexture2D>& Icon, const FLinearColor& Color, const FName& RowName);
-    
-    UFUNCTION(BlueprintCallable)
-    UPerkFeedbackWidget* CreateWidgetPerkFeedback(bool bIsBaseActive, const FItem& PerkData);
-    
-    UFUNCTION(BlueprintCallable)
-    void CreateWidgetItemIcon(const TSoftObjectPtr<UTexture2D>& Icon);
     
     UFUNCTION(BlueprintCallable)
     void CreateMetaReward(const FName& RowName, bool bJustBought);

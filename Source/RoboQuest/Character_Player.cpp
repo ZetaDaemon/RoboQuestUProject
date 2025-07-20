@@ -9,427 +9,6 @@
 #include "Templates/SubclassOf.h"
 
 ACharacter_Player::ACharacter_Player(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer.SetDefaultSubobjectClass<URoboquestMovementComponent>(TEXT("CharMoveComp"))) {
-    this->bLoadFromSaved = false;
-    this->PlayerController = NULL;
-    this->bIsActivate = false;
-    this->InteractErrorSound = NULL;
-    this->InteractErrorSoundHaptic = NULL;
-    this->ReloadAudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("ReloadAudioComponent"));
-    this->ReloadVibrationAudioComponent = NULL;
-    this->CameraPitch = 0;
-    this->PerkCompendiumCategory = EPerkCompendiumCategory::Common;
-    this->firstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("firstPersonCamera"));
-    this->cameraPivot = CreateDefaultSubobject<USpringArmComponent>(TEXT("cameraPivot"));
-    this->FPSMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("FPSMesh"));
-    this->SkillMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkillMesh"));
-    this->BashMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("BashMesh"));
-    this->SkillMeshTPS = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkillMeshTPS"));
-    this->BashMeshTPS = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("BashMeshTPS"));
-    this->MeleeWeaponMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MeleeWeaponMesh"));
-    this->MeleeWeaponMeshTPS = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MeleeWeaponMeshTPS"));
-    this->WeaponMeshTPS = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("WeaponMeshTPS"));
-    const FProperty* p_Mesh_Parent = GetClass()->FindPropertyByName("Mesh");
-    this->InputScaleYaw = 0.00f;
-    this->InputScalePitch = 0.00f;
-    this->bIsDestroyByClassSelector = false;
-    this->bIsFalling = false;
-    this->isOnAir = false;
-    this->LandSounds[0] = NULL;
-    this->LandSounds[1] = NULL;
-    this->LandSounds[2] = NULL;
-    this->LandSounds[3] = NULL;
-    this->MegaLandSound = NULL;
-    this->LandHaptics[0] = NULL;
-    this->LandHaptics[1] = NULL;
-    this->LandHaptics[2] = NULL;
-    this->LandHaptics[3] = NULL;
-    this->MegaLandHaptic = NULL;
-    this->FootstepSound = NULL;
-    this->FootstepCrouchSound = NULL;
-    this->FootstepSprintSound = NULL;
-    this->FootstepScuffSound = NULL;
-    this->FootstepCurve = NULL;
-    this->FootstepSoundCurve = NULL;
-    this->FootstepHaptic = NULL;
-    this->FootstepCrouchHaptic = NULL;
-    this->FootstepSprintHaptic = NULL;
-    this->FootstepScuffHaptic = NULL;
-    this->FeetCollision = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("FeetCollision"));
-    this->BootsBounceSound = NULL;
-    this->BootsDamagedSound = NULL;
-    this->BootsBounceHapticSound = NULL;
-    this->BootsDamagedHapticSound = NULL;
-    this->ChainHeadbonkAmount = 0;
-    this->JumpadSpeedModifier = NULL;
-    this->bWaitForEndJumpad = false;
-    this->RocketJumpImpulseRatio = 1.00f;
-    this->CurveRocketJumpImpulse = NULL;
-    this->CurveRocketJumpImpulseRatioByDistance = NULL;
-    this->JetpackAudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("JetpackAudioComponent"));
-    this->JetpackHapticComponent = NULL;
-    this->CurveJetpackGravity = NULL;
-    this->bJetpackState = false;
-    this->bCanUseJetpack = true;
-    this->StartJetpackSoundLoaded = NULL;
-    this->StopJetpackSoundLoaded = NULL;
-    this->LoopJetpackSoundLoaded = NULL;
-    this->LoopJetpackSoundHapticLoaded = NULL;
-    this->bGraple = false;
-    this->CurveBumpSplineSlow[0] = NULL;
-    this->CurveBumpSplineSlow[1] = NULL;
-    this->CurveBumpSplineSlow[2] = NULL;
-    this->CurveBumpSplineSlow[3] = NULL;
-    this->CurveBumpSplineSlow[4] = NULL;
-    this->CurveBumpSplineSlow[5] = NULL;
-    this->CurveBumpSplineSlow[6] = NULL;
-    this->RidingZOffset = 0.00f;
-    this->RidingProtectionDelay = 0.20f;
-    this->bRidingSplineInversed = false;
-    this->CurrentRidingDistance = 0.00f;
-    this->RideSoundVolumeCurve = NULL;
-    this->RideSpeed = 0.00f;
-    this->LerpRideSpeed = 0.00f;
-    this->RideSpeedMultiplierRatio = 1.00f;
-    this->RideAudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("RideAudioComponent"));
-    this->RideHapticComponent = NULL;
-    this->StartRideSound = NULL;
-    this->StopRideSound = NULL;
-    this->LoopRideSound = NULL;
-    this->LoopRideSoundHaptic = NULL;
-    this->StartRideSoundHaptic = NULL;
-    this->StopRideSoundHaptic = NULL;
-    this->CurrentRidingSpline = NULL;
-    this->TextureFPV = NULL;
-    this->TextureTPV = NULL;
-    this->ClassWidget = NULL;
-    this->SubCrosshairWidget = NULL;
-    this->IconWidget = NULL;
-    this->bCenterCrosshair = false;
-    this->LevelUpFXTPS = NULL;
-    this->LevelUpFXFPS = NULL;
-    this->LevelUpSound = NULL;
-    this->LevelUpHapticSound = NULL;
-    this->BaseScaleDamageModifier = NULL;
-    this->HealthMaxByLevel = 0.00f;
-    this->AddHealthMaxByLevel = 0.00f;
-    this->ShieldByLevel = 0.00f;
-    this->DamagePercentByLevel = 0.00f;
-    this->BashDamagePercentByLevel = 0.00f;
-    this->SkillDamagePercentByLevel = 0.00f;
-    this->ScaleDamagePercentByLevel = 0.00f;
-    this->TicketOnLevelUp = 0;
-    this->SpreadModifier = 1.00f;
-    this->WeaponBaseAffixLevelModifier = 0.00f;
-    this->WeaponMaxAffixLevelModifier = 0.00f;
-    this->WeaponSpecialAffixLevelModifier = 0.00f;
-    this->WeaponMerchantAffixLevelModifier = 0.00f;
-    this->WeaponAffixEliteLevel = 0.00f;
-    this->WeaponUpgradeLevel = 0;
-    this->MaxWeaponUpgradeLevel = 0;
-    this->SpecialWeaponUpgradeLevel = 0;
-    this->WeaponLevelUpLevel = 0;
-    this->WeaponMaxAffixLevel = 0.00f;
-    this->WeaponBaseAffixLevel = 0.00f;
-    this->CoolingConsumeRatio = 1.00f;
-    this->currentWeapon = NULL;
-    this->LastCurrentWeapon = NULL;
-    this->ScopeSensitivityRatio = 1.00f;
-    this->GamepadScopeSensitivityRatio = 1.00f;
-    this->bClassSkillEnabled = true;
-    this->PocketReloadSpeedMultipier = 0.00f;
-    this->bInfiniteAmmo = false;
-    this->InfiniteAmmoCounter = 0;
-    this->bIsSprinting = false;
-    this->bDash = false;
-    this->CurveDashSpeedByDistance = NULL;
-    this->DashStack = 0;
-    this->CurrentDashStack = 0;
-    this->DashStackCooldown = 0.00f;
-    this->CurrentDashStackCooldown = 0.00f;
-    this->EndDashInvulnerability = 0.00f;
-    this->DashRange = 0.00f;
-    this->bIsDashing = false;
-    this->DashFovEffectDuration = 0.50f;
-    this->DashFovEffectResetDuration = 0.10f;
-    this->DashFovEffectEndDiff = 0.00f;
-    this->DashFovEffectCurve = NULL;
-    this->bIsCrouchToggle = false;
-    this->isCrouchedPressed = false;
-    this->isCrouched = false;
-    this->CrouchSound = NULL;
-    this->UncrouchSound = NULL;
-    this->CrouchSoundHaptic = NULL;
-    this->UncrouchSoundHaptic = NULL;
-    this->PowerSlideStartSound = NULL;
-    this->PowerSlideStartSoundHaptic = NULL;
-    this->CurvePowerSlide = NULL;
-    this->PowerSlideRate = 0.00f;
-    this->SwitchAnimations[0] = NULL;
-    this->SwitchAnimations[1] = NULL;
-    this->SwitchAnimations[2] = NULL;
-    this->SwitchAnimations[3] = NULL;
-    this->SwitchAnimations[4] = NULL;
-    this->SwitchSound = NULL;
-    this->SwitchSoundHaptic = NULL;
-    this->InteractActor = NULL;
-    this->ResurrectTime = 0.00f;
-    this->AutoResurrectTime = 0.00f;
-    this->bCanAutoResurect = false;
-    this->MapWidget = NULL;
-    this->MiniMapWidget = NULL;
-    this->FocusedActor = NULL;
-    this->BaseFirstJumpVelocity = 0.00f;
-    this->FirstJumpVelocity = 0.00f;
-    this->CurveJumpMultiplierBySpeedBonus = NULL;
-    this->JumpAmount = 2;
-    this->JumpNumber = 0;
-    this->BaseJumpSound = NULL;
-    this->JumpSound = NULL;
-    this->DoubleJumpSound = NULL;
-    this->TripleJumpSound = NULL;
-    this->BaseJumpSoundHaptic = NULL;
-    this->JumpSoundHaptic = NULL;
-    this->DoubleJumpSoundHaptic = NULL;
-    this->TripleJumpSoundHaptic = NULL;
-    this->JumpAnimations[0] = NULL;
-    this->JumpAnimations[1] = NULL;
-    this->JumpAnimations[2] = NULL;
-    this->JumpAnimations[3] = NULL;
-    this->JumpAnimations[4] = NULL;
-    this->JumpAnimationsTPV[0] = NULL;
-    this->JumpAnimationsTPV[1] = NULL;
-    this->JumpAnimationsTPV[2] = NULL;
-    this->JumpAnimationsTPV[3] = NULL;
-    this->JumpAnimationsTPV[4] = NULL;
-    this->DoubleJumpAnimationsTPV[0] = NULL;
-    this->DoubleJumpAnimationsTPV[1] = NULL;
-    this->DoubleJumpAnimationsTPV[2] = NULL;
-    this->DoubleJumpAnimationsTPV[3] = NULL;
-    this->DoubleJumpAnimationsTPV[4] = NULL;
-    this->AnimInstanceFPSLoaded = NULL;
-    this->AnimInstanceTPSLoaded = NULL;
-    this->bCameraShake = false;
-    this->LastSkillAnimationGameplayTags = 0;
-    this->CenterCrosshairOnomatopeiaOffset = 15.00f;
-    this->AnimIdle = false;
-    this->AnimCameraYawDirection = 0.00f;
-    this->AnimCameraPitchDirection = 0.00f;
-    this->AnimStrafeDirection = 0.00f;
-    this->AnimDirection = 0.00f;
-    this->AnimSpeed = 0.00f;
-    this->AnimMeshDirection = 0.00f;
-    this->AnimMeshYawRotation = 0.00f;
-    this->AnimMeshYawAIM = 0.00f;
-    this->AnimRunPlayrate = 0.00f;
-    this->AnimSprintPlayrate = 0.00f;
-    this->AnimCrouchPlayrate = 0.00f;
-    this->OnomatopoeiaParticle = NULL;
-    this->MPC_FOV = NULL;
-    this->FOV = 110;
-    this->PerkFeedbackMainWidgetClass = NULL;
-    this->PerkFeedbackSubWidgetClass = NULL;
-    this->PerkIconWidgetClass = NULL;
-    this->ItemIconWidgetClass = NULL;
-    this->TemporaryMaterial = NULL;
-    this->ShieldRegenerationValueByPickup = 0.00f;
-    this->HealthRegenerationValueByPickup = 0.00f;
-    this->HealthRegenerationValueByPickupWhenScratchbar = 0.00f;
-    this->PermanentDamagePercent = 0.00f;
-    this->BossPermanentDamagePercent = 0.00f;
-    this->PermanentDamageBarFreezeTimeOnTakeDamage = 0.00f;
-    this->PermanentDamageBarFreezeTimeOnTakePowerCell = 0.00f;
-    this->PermanentDamageDecreaseSpeed = NULL;
-    this->DamageBarRegenerationSpeed = 0.00f;
-    this->CurrentDamageBarValue = 0.00f;
-    this->bCanCritical = true;
-    this->EnemyStatusDurationRatio = 1.00f;
-    this->bShouldApplyDotShockDamage = false;
-    this->ExtraLife = 0;
-    this->bRepairSratchBarOnLevelUp = false;
-    this->HealthPercentByLevel = 0.00f;
-    this->MetaHealthPercentByLevel = 0.00f;
-    this->SpawnAnimationSound = NULL;
-    this->SpawnAnimationHaptic = NULL;
-    this->SpawnAnimation = NULL;
-    this->WeaponSpawnAnimation = NULL;
-    this->IntroIrisAnimation = NULL;
-    this->DeathAnimations[0] = NULL;
-    this->DeathAnimations[1] = NULL;
-    this->DeathAnimations[2] = NULL;
-    this->DeathAnimations[3] = NULL;
-    this->DeathAnimations[4] = NULL;
-    this->DeathSound = NULL;
-    this->DeathCinematicSound = NULL;
-    this->bSkipNextDeathVideoSound = false;
-    this->TakeDamageSound = NULL;
-    this->KillSound = NULL;
-    this->KillPitchCurve = NULL;
-    this->KillVolumeCurve = NULL;
-    this->TakeDamageHapticSound = NULL;
-    this->DeathHapticSound = NULL;
-    this->DeathCinematicHapticSound = NULL;
-    this->ReviveSound = NULL;
-    this->ReviveSoundHaptic = NULL;
-    this->DeathPlayerToResurect = NULL;
-    this->AddedInvulnerabilityDuration = 0.00f;
-    this->OnDeathDelay = 1.00f;
-    this->SummonStaticMeshRef = NULL;
-    this->DamagePower = 0;
-    this->SpeedPower = 0;
-    this->MoveSpeedPower = 0;
-    this->ResistanceFeedback = 0;
-    this->MoveSpeedFeedback = 0;
-    this->SummonLifetimeMultiplier = 1.00f;
-    this->HUDVBoxSummonBarRef = NULL;
-    this->MaxUpgradeLevel = 0;
-    this->ItemRerollPoint = 0;
-    this->ItemDiscoverAmount = 2;
-    this->DT_Artefacts = NULL;
-    this->ShieldMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ShieldMesh"));
-    this->SlowModifier = NULL;
-    this->UnlockSecretSound = NULL;
-    this->UnlockSecretHaptic = NULL;
-    this->DT_PlayerClasses = NULL;
-    this->DT_Collectables = NULL;
-    this->HealthPickupValueModifier = 0.00f;
-    this->bHavePickupSpeedModifier = false;
-    this->PickupSpeedModifier = NULL;
-    this->PickupValueModifier[0] = 0.00f;
-    this->PickupValueModifier[1] = 0.00f;
-    this->PickupValueModifier[2] = 0.00f;
-    this->PickupValueModifier[3] = 0.00f;
-    this->PickupValueModifier[4] = 0.00f;
-    this->PickupValueModifier[5] = 0.00f;
-    this->PickupValueModifier[6] = 0.00f;
-    this->PickupValueModifier[7] = 0.00f;
-    this->PickupValueModifier[8] = 0.00f;
-    this->PickupValueModifier[9] = 0.00f;
-    this->PickupValueModifier[10] = 0.00f;
-    this->RunWrenchAmount = 0;
-    this->HealbotLevel = 0;
-    this->HealbotRecoverHealthModifier = 0.00f;
-    this->bTakingHealbot = false;
-    this->bIsReadyToStartSequence = false;
-    this->bInSpecialTile = false;
-    this->CurveFovCorrection = NULL;
-    this->GamepadMagnetismRatio = 1.00f;
-    this->GamepadAccelerationRatio = 1.00f;
-    this->GamepadSlowSensitivityRatio = 1.00f;
-    this->bCodeDoorUnlocked = false;
-    this->bIsReady = false;
-    this->bIsReadyToStartGame = false;
-    this->bIsReadyToStartInfiniteGame = false;
-    this->DT_MetaRewards = NULL;
-    this->DT_Loot = NULL;
-    this->MaxChestAddWeaponAmount = 0;
-    this->MaxChestTicketAmount = 0;
-    this->MaxChestRandomTicketLuck = 0.00f;
-    this->MaxChestItemAmount = 0;
-    this->MaxChestRareItemLuck = 0;
-    this->MaxChestLegendaryItemLuck = 0;
-    this->SpecialChestAddWeaponAmount = 0;
-    this->SpecialChestTicketAmount = 1;
-    this->SpecialChestRandomTicketLuck = 0.00f;
-    this->SpecialChestItemAmount = 0;
-    this->SpecialChestRareItemLuck = 0;
-    this->SpecialChestLegendaryItemLuck = 0;
-    this->SpecialChestCorruptedItemAmount = 0;
-    this->bHealthPickupInSpecial = false;
-    this->bMerchantItem = false;
-    this->bMerchantWeapon = false;
-    this->bMerchantUpgradeWeapon = false;
-    this->bMerchantUpgradeAffix = false;
-    this->MerchantPriceModifier = 0;
-    this->MerchantSpawnModifier = 0.00f;
-    this->WeaponMerchantAddLootAmount = 0;
-    this->WeaponMerchantAffixLevel = 0;
-    this->WeaponSpecialAffixLevel = 0;
-    this->UpgradeMerchantCanRerollAffix = false;
-    this->bCookingGlove = false;
-    this->RerollAffixPriceReduction = 0;
-    this->UpgradeMerchantDoubleUpgradeLuck = 0.00f;
-    this->ItemMerchantAddLootAmount = 0;
-    this->ItemMerchantLuckLevel = 0;
-    this->ItemMerchantCorruptedLuck = 0;
-    this->CasinoLevel = 0;
-    this->CurrentTicket = 0;
-    this->bGambleGarryUnlocked = false;
-    this->GambleGarryUseAmount = 0;
-    this->DT_DamageFeedback = NULL;
-    this->ComboPointOnDash = 0;
-    this->MaxComboPoint = 0;
-    this->CurrentComboPoint = 0;
-    this->ComboPointOnKill = 0;
-    this->SlashBonusDamageModifier = NULL;
-    this->MaxComboSound = NULL;
-    this->TriggerPassiveGuardian = NULL;
-    this->TriggerPassiveGuardianCooling = NULL;
-    this->TriggerPassiveGuardianAmmo = NULL;
-    this->PassiveDamageModifier = NULL;
-    this->PassiveAmmoModifier = NULL;
-    this->PassiveCoolingModifier = NULL;
-    this->AddStackSound = NULL;
-    this->MaxStackSound = NULL;
-    this->ResetStackSound = NULL;
-    this->AutoCriticalModifier = NULL;
-    this->ReloadModifier = NULL;
-    this->FirerateModifier = NULL;
-    this->MovespeedModifier = NULL;
-    this->TriggerWeapon = NULL;
-    this->SkillDurationModifier = NULL;
-    this->SkillFirerateModifier = NULL;
-    this->MaxFury = 0;
-    this->ReloadSpeedModifierValue = 0.00f;
-    this->AutoCriticalModifierValue = 0.00f;
-    this->FirerateModifierValue = 0.00f;
-    this->SkillAttackSpeedModifierValue = 0.00f;
-    this->MovespeedModifierValue = 0.00f;
-    this->FuryLockDelay = 0.00f;
-    this->FuryLockDelayOnBoss = 0.00f;
-    this->FuryDecreaseSpeed = 0.00f;
-    this->FuryUpSpeed = 0.00f;
-    this->IncrementFuryValueOnShortyBoss = 0.00f;
-    this->IncrementFuryValueOnRocketBoss = 0.00f;
-    this->IncrementFuryValueOnKill = 0.00f;
-    this->bLockFury = false;
-    this->CurrentFury = 0.00f;
-    this->bLooseFuryOnTime = true;
-    this->CurrentFuryLockDelay = 0.00f;
-    this->FuryDecreaseSpeedRatio = 1.00f;
-    this->ScrapByHit = 0;
-    this->ScrapByKill = 0;
-    this->CurrentElementDuration = 0.00f;
-    this->MagusPassiveDamage = 0.00f;
-    this->CurrentElement = EElement::LastIndex;
-    this->StartMoveSound = NULL;
-    this->StopMoveSound = NULL;
-    this->LoopMoveSound = NULL;
-    this->MoveSoundAudioComponent = NULL;
-    this->EatWeaponRestoreHealthPercent = 0.00f;
-    this->EnergizeDuration = 0.00f;
-    this->EatWeaponSound = NULL;
-    this->EatLegendaryWeaponSound = NULL;
-    this->MaxStaticCharge = 0;
-    this->CurrentStaticCharge = 0.00f;
-    this->SentinelCriticalDamageModifier = NULL;
-    this->SentinelAutoCriticalModifier = NULL;
-    this->SentinelBashDamageModifier = NULL;
-    this->StaticChargeGenerationSpeedRatio = 1.00f;
-    this->LightSelectorRef = NULL;
-    this->ShieldMesh->SetupAttachment(RootComponent);
-    this->RideAudioComponent->SetupAttachment(RootComponent);
-    this->FeetCollision->SetupAttachment(RootComponent);
-    this->JetpackAudioComponent->SetupAttachment(RootComponent);
-    this->ReloadAudioComponent->SetupAttachment(RootComponent);
-    this->cameraPivot->SetupAttachment(RootComponent);
-    this->FPSMesh->SetupAttachment(cameraPivot);
-    this->SkillMesh->SetupAttachment(RootComponent);
-    this->BashMesh->SetupAttachment(RootComponent);
-    this->SkillMeshTPS->SetupAttachment(RootComponent);
-    this->BashMeshTPS->SetupAttachment(RootComponent);
-    this->MeleeWeaponMesh->SetupAttachment(RootComponent);
-    this->MeleeWeaponMeshTPS->SetupAttachment(RootComponent);
-    this->WeaponMeshTPS->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
 }
 
 bool ACharacter_Player::WasCrystalFound(const FName& LevelName) const {
@@ -520,10 +99,6 @@ void ACharacter_Player::StartWeaponMaterialProcEffect(EWeaponProcType Type) {
 }
 
 void ACharacter_Player::StartRecordAction(EAction Action) {
-}
-
-
-void ACharacter_Player::SpawnWeaponOnWeaponSpawner(AAInteractive_WeaponSpawner* WeaponSpawnerRef, const TSoftClassPtr<AAWeapon>& WeaponClass) {
 }
 
 void ACharacter_Player::SpawnBaseWeapon() {
@@ -855,12 +430,6 @@ bool ACharacter_Player::OnServerSplineEvent_Validate(const FVector& ForwardVecto
     return true;
 }
 
-void ACharacter_Player::OnServerSpawnWeaponOnWeaponSpawner_Implementation(AAInteractive_WeaponSpawner* WeaponSpawnerRef, const TSoftClassPtr<AAWeapon>& WeaponClass) {
-}
-bool ACharacter_Player::OnServerSpawnWeaponOnWeaponSpawner_Validate(AAInteractive_WeaponSpawner* WeaponSpawnerRef, const TSoftClassPtr<AAWeapon>& WeaponClass) {
-    return true;
-}
-
 void ACharacter_Player::OnServerSkillAskFromStopReplicateRandomSeed_Implementation(UASkill* Skill) {
 }
 bool ACharacter_Player::OnServerSkillAskFromStopReplicateRandomSeed_Validate(UASkill* Skill) {
@@ -924,12 +493,6 @@ bool ACharacter_Player::OnServerSetCameraPitch_Validate(uint8 NewPitch) {
 void ACharacter_Player::OnServerSendLocalKillTarget_Implementation(FVector_NetQuantize TargetLocation) {
 }
 bool ACharacter_Player::OnServerSendLocalKillTarget_Validate(FVector_NetQuantize TargetLocation) {
-    return true;
-}
-
-void ACharacter_Player::OnServerSendLocalData_Implementation(const FLocalPlayerData& Data) {
-}
-bool ACharacter_Player::OnServerSendLocalData_Validate(const FLocalPlayerData& Data) {
     return true;
 }
 
@@ -1302,9 +865,6 @@ void ACharacter_Player::OnJump() {
 void ACharacter_Player::OnItemLoaded(TSoftClassPtr<UAItem> ItemPtr, FName ItemRowName, FName InBaseItemRowName, EItemType ItemType, int32 RandomSeed, bool bFromRunSave) {
 }
 
-void ACharacter_Player::OnInteractiveSecretRuinsDestroyed(AActor* Actor) {
-}
-
 void ACharacter_Player::OnHookingEnemyDestroyed(AActor* HookingEnemy) {
 }
 
@@ -1324,9 +884,6 @@ void ACharacter_Player::OnFeetCollisionBeginOverlap(UPrimitiveComponent* Overlap
 }
 
 void ACharacter_Player::OnEquipWeaponFromSpecificPool(const FName& WeaponRowName, int32 WeaponLevel) {
-}
-
-void ACharacter_Player::OnEquippedInteractiveWeaponDestroyed(AActor* InteractiveWeaponActor) {
 }
 
 void ACharacter_Player::OnEndTimerMultiShieldRegen() {
@@ -1357,9 +914,6 @@ void ACharacter_Player::OnEndPowerSlide() {
 }
 
 void ACharacter_Player::OnEndPickupSpeed() {
-}
-
-void ACharacter_Player::OnEndInitializeLocalData(const FLocalPlayerData& LocalData) {
 }
 
 void ACharacter_Player::OnEndDialog(FName RowName, bool bCancelled) {
@@ -1602,11 +1156,6 @@ ESprintMode ACharacter_Player::GetSprintMode() const {
     return ESprintMode::Toggle;
 }
 
-FSurfaceSoundAndFx ACharacter_Player::GetSoundsAndFXBySurface(TEnumAsByte<EPhysicalSurface> SurfaceType) const {
-    return FSurfaceSoundAndFx{};
-}
-
-
 
 TArray<FRequest_Game_Weapon> ACharacter_Player::GetRequestWeaponData() {
     return TArray<FRequest_Game_Weapon>();
@@ -1677,10 +1226,6 @@ float ACharacter_Player::GetMaxStaticChargeDuration() {
     return 0.0f;
 }
 
-AALightSelector* ACharacter_Player::GetLightSelectorRef() const {
-    return NULL;
-}
-
 EIntensity ACharacter_Player::GetLandIntensity() {
     return EIntensity::None;
 }
@@ -1706,18 +1251,6 @@ FItemBundle ACharacter_Player::GetItemBundleFromRowName(FName ItemRowName) {
     return FItemBundle{};
 }
 
-AAInteractiveSecretRuins* ACharacter_Player::GetInteractiveSecretRuins(uint8 ID) {
-    return NULL;
-}
-
-
-UVerticalBox* ACharacter_Player::GetHUDVBoxSummonBar() {
-    return NULL;
-}
-
-UHUDIngameWidget* ACharacter_Player::GetHUDIngameWidget() {
-    return NULL;
-}
 
 UAnimMontage* ACharacter_Player::GetHitAnimation(EIntensity Intensity, EDirection Direction) {
     return NULL;
@@ -1820,10 +1353,6 @@ UAArtefact* ACharacter_Player::GetArtefactByClass(TSubclassOf<UAArtefact> Artefa
     return NULL;
 }
 
-UAPlayerAnimInstance* ACharacter_Player::GetAnimInstanceByType(EAnimationType Type) {
-    return NULL;
-}
-
 TArray<FPlayerClassRow> ACharacter_Player::GetAllPlayerClassDatas() const {
     return TArray<FPlayerClassRow>();
 }
@@ -1850,9 +1379,6 @@ void ACharacter_Player::ForceGarbageCollection(bool bForcePurge) {
 void ACharacter_Player::ExtractDatatable(UAStatManager* PlayerStatManager) {
 }
 
-void ACharacter_Player::EquipWeapon(AAWeapon* Weapon, AAInteractiveWeapon* InteractiveWeapon, bool bSwitchOn, bool bEraseCurrentWeapon) {
-}
-
 void ACharacter_Player::EndAction(EAction Action, bool bIsCancel) {
 }
 
@@ -1860,16 +1386,6 @@ void ACharacter_Player::DelayedOnTriggerKill() {
 }
 
 void ACharacter_Player::DelayedOnTakeHealbot() {
-}
-
-void ACharacter_Player::CreateWidgetPerkIcon(const TSoftObjectPtr<UTexture2D>& Icon, const FLinearColor& Color, const FName& RowName) {
-}
-
-UPerkFeedbackWidget* ACharacter_Player::CreateWidgetPerkFeedback(bool bIsBaseActive, const FItem& PerkData) {
-    return NULL;
-}
-
-void ACharacter_Player::CreateWidgetItemIcon(const TSoftObjectPtr<UTexture2D>& Icon) {
 }
 
 void ACharacter_Player::CreateMetaReward(const FName& RowName, bool bJustBought) {

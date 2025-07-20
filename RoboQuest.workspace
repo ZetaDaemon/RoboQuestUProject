@@ -9,8 +9,6 @@
     <Include Path="/home/zetadaemon/git/ue426/Engine/Source/Runtime/TraceLog/Public" />
     <Include Path="/home/zetadaemon/git/ue426/Engine/Source/Runtime/Core/Public" />
     <Include Path="/home/zetadaemon/git/ue426/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TraceLog" />
-    <Include Path="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RoboQuest" />
-    <Include Path="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source" />
     <Include Path="/home/zetadaemon/git/ue426/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine" />
     <Include Path="/home/zetadaemon/git/ue426/Engine/Source/Runtime/Engine/Classes" />
     <Include Path="/home/zetadaemon/git/ue426/Engine/Source/Runtime/Engine/Public" />
@@ -240,6 +238,8 @@
     <Include Path="/home/zetadaemon/git/ue426/Engine/Source/Editor/Kismet/Public" />
     <Include Path="/home/zetadaemon/git/ue426/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothingSystemRuntimeInterface" />
     <Include Path="/home/zetadaemon/git/ue426/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public" />
+    <Include Path="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RoboQuest" />
+    <Include Path="/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source" />
     <Include Path="/home/zetadaemon/git/ue426/Engine/Source/ThirdParty/PhysX3/PxShared/include" />
     <Include Path="/home/zetadaemon/git/ue426/Engine/Source/ThirdParty/PhysX3/PxShared/include/cudamanager" />
     <Include Path="/home/zetadaemon/git/ue426/Engine/Source/ThirdParty/PhysX3/PxShared/include/filebuf" />

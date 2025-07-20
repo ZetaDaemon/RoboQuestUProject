@@ -71,11 +71,7 @@ AACharacter::AACharacter(const FObjectInitializer& ObjectInitializer) : Super(Ob
     this->IKHipsOffset = 0.00f;
     this->IKHipsInterpSpeed = 7.00f;
     this->InitialParticleSystemPoolCount = 1;
-    this->GameModeRef = NULL;
     this->bAutoRegisterToGameState = true;
-    this->GameStateRef = NULL;
-    this->LevelGeneratorRef = NULL;
-    this->GameInstanceRef = NULL;
     this->CreationTime = 1750726445191;
 }
 

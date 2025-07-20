@@ -19,9 +19,6 @@ UASkill::UASkill(const FObjectInitializer& ObjectInitializer) : Super(ObjectInit
     this->CharacterOwner = NULL;
     this->SpeedRatio = 1.00f;
     this->ModifierSpeedRatio = NULL;
-    this->GameStateRef = NULL;
-    this->GameModeRef = NULL;
-    this->GameInstanceRef = NULL;
     this->bIsInitialized = false;
     this->bIsPressed = false;
     this->bIsUsed = false;

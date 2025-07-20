@@ -1,11 +1,2411 @@
 [
 	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AArtefact.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AArtefact.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ACharacter.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ACharacter.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ActionPriorityParam.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ActionPriorityParam.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ActionProperty.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ActionProperty.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AItem.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AItem.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AMetaReward.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AMetaReward.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AModifier.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AModifier.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Animation.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Animation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AnimationIntensityByDirectionLoaded.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AnimationIntensityByDirectionLoaded.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AnimationIntensityLoaded.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AnimationIntensityLoaded.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/APlayerController.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/APlayerController.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/APlayerSkill.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/APlayerSkill.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AProjectile.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ArtefactDataWithRowName.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ArtefactDataWithRowName.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ArtefactRow.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ArtefactRow.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ArtefactRowHandle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ArtefactRowHandle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ASkill.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ASkill.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ASkillManager.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ASkillManager.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AStatManager.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AStatManager.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ATile.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ATrigger.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ATrigger.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ATriggerCondition.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ATriggerCondition.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ATriggerMultiple.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ATriggerMultiple.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeapon.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeapon.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
 		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeaponAffix.cpp",
 		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
 		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
 	},
 	{
 		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/AWeaponAffix.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/BazarItemRowHandle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/BazarItemRowHandle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Character_AI.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Character_Enemy.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Character_Enemy.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Character_Player.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Character_Player.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ClientAuthorativeCMC.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ClientAuthorativeCMC.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ClientDamageInfo.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ClientDamageInfo.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/CollectableRowBase.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/CollectableRowBase.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Cost.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Cost.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DamageFeedback.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DamageFeedback.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DamageFeedbackRow.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DamageFeedbackRow.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DamageFeedbackRowHandle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DamageFeedbackRowHandle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelayRetriggerArea.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelayRetriggerArea.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateActionDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateActivateCharacterDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateAvaibilityDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateCameraShakeDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateCancelDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateCancelGrappleDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateCenterCrosshairDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateCheatCodeDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateClassSkillEnabilityDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateCrouchPressedDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateCustomEffectDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateEndSavedRunInitializationDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateGlobalModifierUpdatedDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateInputActionDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateIsOnAirDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateJetpackDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateJetpackFuelRatioDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateJumpOnTargetDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateNoCostDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnActivateSummonRefDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnActivateSuperBashDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnAnimNotifyDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnChannelInteractCancelDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnChannelInteractDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnEndDashDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnEndDialogDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnEndJumpadLockInputDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnEndPreshootDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnEnemyDeathDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnFocusActorDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnFocusInteractibleDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnGrantPickupDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnInteractDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnInteractErrorDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnLandedDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnMissRaycastDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnOverheatDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnProjectileDeathDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnReloadDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnRemoveDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnRestoreHealthDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnScoppedDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnSkillNotifyDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnSprintDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnStackUpdateDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnStartDashDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnStartDialogDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnTakeHealbotDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnTriggerDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnTriggerEndResultDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnTriggerKillDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnTriggerSkillDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnTriggerTargetDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnTriggerWeaponDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnTurboBumpadDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnUnlockPermanentRewardDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnUpdateMaxSummonRefDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnUpdateSummonRefDurationDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateOnValidateDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegatePlayerNumberChangeDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegatePostUsedDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegatePowerSlideDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateResetJumpDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateSetNewDifficultyDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateStartBehaviorDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateStartPreshootDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateStatFeedbackDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateTagUpdateDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateTriggerActionDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateTriggerAreaEffectDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateTriggerStatDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateTutoTextAppearDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateUpdateCooldownRatioDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateUpdateDashStackDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateUpdateFallDurationDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateUpdateScopeChargedRatioDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateUpdateSecondaryWeaponDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateUpdateSuperBashPowerCellDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateUpdateSuperBashStackDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateUpdateWeaponCategoryDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateUsedDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DelegateVelocityDelegate.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DifficultyRow.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DifficultyRow.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DifficultyRowHandle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/DifficultyRowHandle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EActe.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAction.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EActorDynamicLoadingState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAggroState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAIMaterialType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAIMovementType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAIState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAIStatus.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAITag.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAnimationType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAnimPose.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAnisotropy.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAntiAlliasing.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAOEType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAreaDecalMaterialTypes.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EArenaSpawnerType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAspectRatio.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAssetLoading.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAttributeModifierTarget.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EAutoReloadMode.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBasecampLevel.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBaseRandomStat.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBigPointType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBlendable.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBonesType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBoolean.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBPFileReadStorageType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBPInviteStatus.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBPOnlineActivityOutcome.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBPOnlineServerConnectionStatusGDK.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBPPresenceInfo.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBPReportPlayerReason.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBubbleSpawnAnimation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBubbleTailLocation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBuildType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EBumpIntensity.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECasinoLoot.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EChargeType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECheatCode.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECodexCategory.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECollectableType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EColorBlindType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EComparator.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECompendiumCategory.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECompendiumCategoryWithLevel.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EConnectorsState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EConnectorState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EConsole.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EController.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EControllerDisplayType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EControllerScheme.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECorruptedLevelType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECorruptedRaceDifficulty.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECountableSplineType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECreditCategory.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECrosshairColor.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECrosshairMode.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECrouchMode.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECurrentValueStat.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ECustomCost.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDamageFeedabackType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDamageType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDamageTypeGameplay.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDeathType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDecalPoolTypes.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDialogueEvent.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDirection.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDisplayMode.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDoorBehaviour.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDoorDestination.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDoorState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDoorWayBehaviour.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EDot.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EElement.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEncounterSize.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEncounterType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEndScreenType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEnemyBoardCategory.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEnemyBoardPosition.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEnemyBoardSelection.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEnemyDeathDecalMaterialTypes.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEnemyGenerationState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEnemyLoadingType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEnemyLoot.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEnemySpawnLocation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEnemySpawnParameter.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEnemyType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EEnvironmentType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EffectSubsettings.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EffectSubsettings.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EForceTileDirection.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EFriendPlatform.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EGambleWeaponType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EGameModeType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EGameplayTags.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EGarryAnimation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EGarryReward.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EGarryRollType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EGDKUserPrivilege.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EGenericUnlockTextType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EGraphicQualityPreset.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EGraphicSettingsCategory.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EHapticPlatform.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EHitEvent.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EHitType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EHoleSpawnerType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EHookPointType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EHUDAnimation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EImpactDecalMaterialTypes.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EImpactRatio.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EInfiniteLayoutCategory.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EInputRecordType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EIntensity.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EInteractErrorReason.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EInteractState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EInviteType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EItemCategory.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EItemPointType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EItemRarity.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EItemType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EJumpadLocation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EKeywordType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EKillRagdollType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EKnockbackVersion.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ElementalParticle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ElementalParticle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ELevelForSettings.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ELevelTheme.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ELoadingStep.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ELocalization.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ELocomotionType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EMapLocatorStatus.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EMapLocatorType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EMaxTextLocation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EMaxTextType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EMetaBoardEntryState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EMetaRewardLootType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EMetaRewardState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EModifierStatType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EModifierType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EMultiplayerLoot.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EMusicEvent.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EMutatorType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ENetworkMode.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ENetworkType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EObjectSlotAllowGun.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EObjectSlotLocation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EOnomatopoeiaColor.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EOutRangeBehavior.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EPerfumerIcon.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EPerkCompendiumCategory.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EPerkFeedbackType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EPermanentReward.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EPickup.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EPickupLocation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EProjectileExecutionOrder.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EProjectileTriggerType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EProjectileType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EQuestLevel.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EQuestScore.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EQuestVictory.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EquippedWeapon.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EquippedWeapon.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ERandomLuck.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ERandomMeshMergeMethod.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ERandomMeshTag.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ERandomSeedID.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ERangeCategory.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ERank.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ERankStatAchievement.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EReplacementPathPostSas.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EReplicatedActorState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EReplicatedActorType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ERotationDirection.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESaveGame.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EScopeMode.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESessionRegion.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESessionType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESettingsQuality.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESettingsQualityWithOff.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESkillBehavior.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESkillFXPool.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESkillImpactDecalTypes.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESkillMuzzleType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESkillType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESocketLocation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESoundChannel.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESpawnEncounterType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESpawnPosition.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESpecificLayout.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESpecificTile.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESplineLocation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESplineTriggerType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESplineType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESprintMode.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESquadPointTag.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESquadPointType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EStat.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EStatPrefix.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EStatSuffix.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EStatus.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EStorePlatform.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EStoryLocation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EStunArrowDirection.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESummonBehavior.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESuperBotGadgetLockedState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ESurfaceImpactDecalTypes.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETargetDetectionCircle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETargetDirection.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETargetType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETeam.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETextColorAnimation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETextFadeAnimation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETextFeedbackPosition.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETextFeedbackType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETextScaleAnimation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETextTranslationAnimation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETileBorderType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETileRoofType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETilesDynamicLoadingState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETileType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETokenRule.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETraceType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETrapCategory.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETrapSlotLocation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETrapSlotType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETrapType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETutoDoorType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ETutoPanel.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EUnlockLayout.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EVideoButtonType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EWeaponAffixLuckType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EWeaponAffixParticle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EWeaponAffixRarity.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EWeaponAffixType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EWeaponCategory.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EWeaponColor.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EWeaponGeneration.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EWeaponMetaRewardModifier.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EWeaponProcType.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EWeaponRank.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EWeaponSortingState.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/EWorkerSplineLevelRestriction.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/GlobalModifier.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/GlobalModifier.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/HitDecalComponent.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/HitDecalComponent.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/IBlower.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/IDamageable.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/IFocusable.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/IGrappable.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/IReplicatedActor.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ISkillManager.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ISpawnable.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/IStatManager.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Item.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Item.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ItemBundle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ItemBundle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ItemBundleRowHandle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ItemBundleRowHandle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ItemRowHandle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ItemRowHandle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/KeywordDescription.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/KeywordDescription.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/KeywordDescriptionRowHandle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/KeywordDescriptionRowHandle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/LootRow.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/LootRow.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/LootRowHandle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/LootRowHandle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/MetaReward.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/MetaReward.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ModAnimation.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ModAnimation.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ModAnimationGunfeel.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ModAnimationGunfeel.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ModAnimationRowHandle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ModAnimationRowHandle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Modifier_Damage.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Modifier_Damage.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Modifier_Stat.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Modifier_Stat.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Modifier_Stat_Scale.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Modifier_Stat_Scale.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Modifier_Stat_Scale_Level.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Modifier_Stat_Scale_Level.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Modifier_Stat_Scale_Player.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Modifier_Stat_Scale_Player.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Modifier_Stat_Scale_Weapon.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Modifier_Stat_Scale_Weapon.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ModifierValue.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ModifierValue.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ModProjectileMesh.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ModProjectileMesh.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/NetworkSkillInfo.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/NetworkSkillInfo.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/NetworkSkillValues.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/NetworkSkillValues.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Onomatopoeia.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Onomatopoeia.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/OnomatopoeiaRowHandle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/OnomatopoeiaRowHandle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ParticleSystemComponentPool.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ParticleSystemComponentPool.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ParticleSystemComponentsPoolArray.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/ParticleSystemComponentsPoolArray.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PatternData.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PatternData.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PendingInitProjectile.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PendingInitProjectile.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PerkStatModifier.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PerkStatModifier.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PlayerClassRow.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PlayerClassRow.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PlayerClassRowHandle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PlayerClassRowHandle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PlayerSkillRow.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PlayerSkillRow.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PointlessTestCharacter.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PointlessTestCharacter.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PoolDecalComponent.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/PoolDecalComponent.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Request_Game_Weapon.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Request_Game_Weapon.h",
 		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
 		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
 	},
@@ -25,12 +2425,172 @@
 		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
 	},
 	{
-		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RoboQuestGameModeBase.cpp",
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RoboquestMovementComponent.cpp",
 		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
 		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
 	},
 	{
-		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RoboQuestGameModeBase.h",
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RoboquestMovementComponent.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RQDamageInfo.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RQDamageInfo.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RQHitResult.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/RQHitResult.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/SkillInputBP.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/SkillInputBP.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Stat.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Stat.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/StatusSound.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/StatusSound.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/StatValues.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/StatValues.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/SummonStaticMesh.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/SummonStaticMesh.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/SurfaceSoundAndFx.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/SurfaceSoundAndFx.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Trigger_Skill.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Trigger_Skill.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Trigger_Weapon.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/Trigger_Weapon.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/WeaponAffix.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/WeaponAffix.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/WeaponAffixData.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/WeaponAffixData.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/WeaponAffixRarity.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/WeaponAffixRarity.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/WeaponAffixRow.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/WeaponAffixRow.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/WeaponAffixRowHandle.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/WeaponAffixRowHandle.h",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/WeaponSpecificHandPose.cpp",
+		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
+		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
+	},
+	{
+		"file": "/home/zetadaemon/Documents/Unreal Projects/RoboQuest/Source/RoboQuest/WeaponSpecificHandPose.h",
 		"command": "cl.exe @\"/home/zetadaemon/Documents/Unreal Projects/RoboQuest/.vscode/compileCommands_Default/RoboQuest.149.rsp\"",
 		"directory": "/home/zetadaemon/git/ue426/Engine/Source"
 	}

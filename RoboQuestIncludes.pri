@@ -7,8 +7,6 @@ INCLUDEPATH += \
 	/home/zetadaemon/git/ue426/Engine/Source/Runtime/TraceLog/Public \
 	/home/zetadaemon/git/ue426/Engine/Source/Runtime/Core/Public \
 	/home/zetadaemon/git/ue426/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TraceLog \
-	Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RoboQuest \
-	Source \
 	/home/zetadaemon/git/ue426/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine \
 	/home/zetadaemon/git/ue426/Engine/Source/Runtime/Engine/Classes \
 	/home/zetadaemon/git/ue426/Engine/Source/Runtime/Engine/Public \
@@ -238,6 +236,8 @@ INCLUDEPATH += \
 	/home/zetadaemon/git/ue426/Engine/Source/Editor/Kismet/Public \
 	/home/zetadaemon/git/ue426/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothingSystemRuntimeInterface \
 	/home/zetadaemon/git/ue426/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public \
+	Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RoboQuest \
+	Source \
 	/home/zetadaemon/git/ue426/Engine/Source/Runtime/Launch/Private \
 	/home/zetadaemon/git/ue426/Engine/Source/Programs/BenchmarkTool/Private \
 	/home/zetadaemon/git/ue426/Engine/Intermediate/Build/Linux/B4D820EA/BenchmarkTool/Inc/Core \
