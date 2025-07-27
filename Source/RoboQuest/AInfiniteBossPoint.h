@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "APoint.h"
+#include "Components/ArrowComponent.h"
 #include "AInfiniteBossPoint.generated.h"
 
 class AAGameState;

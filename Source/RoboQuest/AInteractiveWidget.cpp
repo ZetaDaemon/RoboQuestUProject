@@ -7,8 +7,3 @@ AAInteractiveWidget::AAInteractiveWidget(const FObjectInitializer& ObjectInitial
 void AAInteractiveWidget::SetWidgetDisplay_Implementation(bool bIsDisplay) {
 }
 
-UWidgetComponent* AAInteractiveWidget::GetWidgetComponent_Implementation() const {
-    return NULL;
-}
-
-

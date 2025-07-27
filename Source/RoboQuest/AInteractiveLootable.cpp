@@ -1,5 +1,6 @@
 #include "AInteractiveLootable.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=StaticMeshComponent -FallbackName=StaticMeshComponent
+#include "Components/StaticMeshComponent.h"
 #include "Net/UnrealNetwork.h"
 
 AAInteractiveLootable::AAInteractiveLootable(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {

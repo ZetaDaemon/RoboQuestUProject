@@ -6,6 +6,7 @@
 #include "Item.h"
 #include "AItem.generated.h"
 
+class AAGameState;
 class ACharacter_Player;
 class UAItem;
 class UAPlayerSkill;
@@ -83,6 +84,8 @@ public:
     bool GetSeededRandomResult(int32 Luck, int32 LuckIncrementByFail, float FireRate);
     
 private:
+    UFUNCTION(BlueprintCallable, BlueprintPure)
+    AAGameState* GetGameStateRef() const;
     
 public:
     UFUNCTION(BlueprintCallable, BlueprintPure)

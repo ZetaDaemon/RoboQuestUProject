@@ -1,6 +1,6 @@
 #include "ATile.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ArrowComponent -FallbackName=ArrowComponent
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=BoxComponent -FallbackName=BoxComponent
+#include "Components/BoxComponent.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ChildActorComponent -FallbackName=ChildActorComponent
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SceneComponent -FallbackName=SceneComponent
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=StaticMeshComponent -FallbackName=StaticMeshComponent
@@ -82,7 +82,6 @@ EDirection AATile::GetEnteringDirection() const {
 int32 AATile::GetEnemyLevel() const {
     return 0;
 }
-
 
 TArray<EDirection> AATile::GetConnectorOpenedDirections() const {
     return TArray<EDirection>();

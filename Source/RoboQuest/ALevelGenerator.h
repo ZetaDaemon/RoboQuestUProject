@@ -62,7 +62,6 @@ class ACharacter_Enemy;
 class AController;
 class UALevelGeneratorMutator;
 class UDataTable;
-class ULevelSequence;
 class UMaterialParameterCollection;
 class USoundCue;
 class UStaticMesh;
@@ -436,9 +435,6 @@ private:
     AActor* BossLayer;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    ULevelSequence* BossSequence;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     TArray<AABossTile*> BossTiles;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
@@ -719,9 +715,6 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FCorruptedLevelPath GetCorruptedLevelPath(int32 PathID) const;
-    
-    UFUNCTION(BlueprintCallable, BlueprintPure)
-    TSoftObjectPtr<ULevelSequence> GetCorruptedLevelArenaSequence() const;
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FText GetCorruptedLevelArenaName() const;

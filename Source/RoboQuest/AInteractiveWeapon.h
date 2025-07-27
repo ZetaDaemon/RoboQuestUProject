@@ -18,8 +18,6 @@ class UParticleSystemComponent;
 class USceneComponent;
 class USkeletalMeshComponent;
 class USoundCue;
-class UWeaponTooltipWidget;
-class UWidgetComponent;
 
 UCLASS(Abstract, Blueprintable)
 class ROBOQUEST_API AAInteractiveWeapon : public AAInteractiveLootable {
@@ -29,9 +27,6 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     USceneComponent* Scene;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
-    UWidgetComponent* Widget;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     USkeletalMeshComponent* WeaponMesh;
@@ -71,12 +66,6 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     EWeaponMetaRewardModifier MetaRewardModifier;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftClassPtr<UWeaponTooltipWidget> TooltipClass;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
-    UWeaponTooltipWidget* TooltipRef;
     
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     FTransform MeshTransformByType[5];

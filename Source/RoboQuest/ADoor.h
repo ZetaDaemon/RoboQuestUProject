@@ -3,6 +3,7 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=CoreUObject -ObjectName=LinearColor -FallbackName=LinearColor
 //CROSS-MODULE INCLUDE V2: -ModuleName=CoreUObject -ObjectName=Vector -FallbackName=Vector
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=HitResult -FallbackName=HitResult
+#include "Components/BoxComponent.h"
 #include "AInteractive.h"
 #include "EDirection.h"
 #include "EDoorBehaviour.h"
@@ -29,7 +30,6 @@ class USkeletalMeshComponent;
 class USoundCue;
 class UStaticMeshComponent;
 class UTexture2D;
-class UWidgetComponent;
 
 UCLASS(Blueprintable)
 class ROBOQUEST_API AADoor : public AAInteractive {
@@ -420,9 +420,6 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     float GetCrossedTeleportDistance() const;
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UWidgetComponent* GetCompassWidgetComponent() const;
     
 private:
     UFUNCTION(BlueprintCallable)

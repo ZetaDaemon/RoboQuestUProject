@@ -36,7 +36,6 @@ class AATile;
 class AAWallTile;
 class AActor;
 class ACharacter_Enemy;
-class ULevelSequence;
 class USoundCue;
 class UStaticMesh;
 class UTexture2D;
@@ -266,9 +265,6 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FText ArenaName;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftObjectPtr<ULevelSequence> ArenaSequence;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FActBoss CorruptedBoss;

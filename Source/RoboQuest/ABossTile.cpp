@@ -2,12 +2,6 @@
 #include "ETileType.h"
 
 AABossTile::AABossTile(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
-    this->Type = ETileType::Boss;
-    this->BossLayer = NULL;
-    this->BossClass = NULL;
-    this->bIsBossCombatStarted = false;
-    this->bInstantFadeToBlackOnBossDeath = false;
-    this->LevelSequenceActor = NULL;
 }
 
 void AABossTile::TeleportPlayersToBossCombat() {

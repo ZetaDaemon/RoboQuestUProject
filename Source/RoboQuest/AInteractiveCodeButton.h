@@ -7,7 +7,6 @@
 class AAInteractiveCodeButton;
 class AATile;
 class UMaterialInterface;
-class UWidgetComponent;
 
 UCLASS(Blueprintable)
 class ROBOQUEST_API AAInteractiveCodeButton : public AAInteractive {
@@ -37,9 +36,6 @@ public:
     
     UFUNCTION(BlueprintCallable)
     void OnPressed();
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UWidgetComponent* GetWidgetComponent() const;
     
     UFUNCTION(BlueprintCallable)
     void Disable();

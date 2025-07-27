@@ -18,8 +18,6 @@ class UASkill;
 class UAnimInstance;
 class UAnimMontage;
 class UAnimSequence;
-class UBehaviorTree;
-class ULevelSequence;
 class UMaterialInterface;
 class UPhysicsAsset;
 class USkeletalMesh;
@@ -89,12 +87,6 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bCanHaveEyeProtection;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftObjectPtr<UBehaviorTree> BehaviorTree;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    UBehaviorTree* LoadedBehaviorTree;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float FocusDuration;
@@ -308,9 +300,6 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftClassPtr<AActor> Layer;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSoftObjectPtr<ULevelSequence> LevelSequence;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bHasALightScenario;

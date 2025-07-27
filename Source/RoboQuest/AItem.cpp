@@ -60,3 +60,8 @@ bool UAItem::GetBaseSeededRandomResult() {
 }
 
 
+
+
+AAGameState* UAItem::GetGameStateRef() const {
+    return NULL;
+}

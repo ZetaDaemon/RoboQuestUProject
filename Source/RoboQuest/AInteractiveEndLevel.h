@@ -4,7 +4,6 @@
 #include "AInteractiveEndLevel.generated.h"
 
 class UACompassLocator;
-class UWidgetComponent;
 
 UCLASS(Blueprintable)
 class ROBOQUEST_API AAInteractiveEndLevel : public AAInteractive {
@@ -26,8 +25,6 @@ private:
     void OnUpdateLocalization(const FString& NewLanguage);
     
 public:
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UWidgetComponent* GetWidgetComponent() const;
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent, BlueprintPure)
     float GetFadeToBlackDelayBeforeEndLevel() const;

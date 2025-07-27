@@ -4,6 +4,7 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=CoreUObject -ObjectName=Vector -FallbackName=Vector
 //CROSS-MODULE INCLUDE V2: -ModuleName=CoreUObject -ObjectName=Vector2D -FallbackName=Vector2D
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=Actor -FallbackName=Actor
+#include "Components/BoxComponent.h"
 #include "DelegateOnPlayerInteractDelegate.h"
 #include "ECustomCost.h"
 #include "EInteractState.h"
@@ -30,8 +31,6 @@ class UPrimitiveComponent;
 class USceneComponent;
 class USoundCue;
 class UTexture2D;
-class UUserWidget;
-class UWidgetComponent;
 
 UCLASS(Abstract, Blueprintable)
 class ROBOQUEST_API AAInteractive : public AActor, public IIFocusable, public IIInterractible, public IITileReplicatedActor, public IIReplicatedActor, public IIPingable {
@@ -240,8 +239,6 @@ protected:
     void RemoveCustomCost();
     
 public:
-    UFUNCTION(BlueprintCallable)
-    void OnWidgetCompassLoaded(UUserWidget* NewWidget);
     
 private:
     UFUNCTION(BlueprintCallable)

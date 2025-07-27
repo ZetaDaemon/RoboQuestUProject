@@ -15,7 +15,6 @@ class AAJumpad;
 class AALavaTrap;
 class AActor;
 class ACharacter_Enemy;
-class ALevelSequenceActor;
 class USkeletalMeshComponent;
 
 UCLASS(Blueprintable)
@@ -67,8 +66,6 @@ public:
     FDelegateDisplayBossHealthBar DelegateDisplayBossHealthBar;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    ALevelSequenceActor* LevelSequenceActor;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     TArray<FTransform> MerchantsSpawnTransforms;

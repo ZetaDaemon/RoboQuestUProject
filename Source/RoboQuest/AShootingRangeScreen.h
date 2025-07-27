@@ -7,7 +7,6 @@ class AAGameState;
 class UAGameInstance;
 class UStaticMesh;
 class UStaticMeshComponent;
-class UWidgetComponent;
 
 UCLASS(Abstract, Blueprintable)
 class ROBOQUEST_API AAShootingRangeScreen : public AActor {
@@ -18,9 +17,6 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UStaticMeshComponent* ScreenCollisionMesh;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
-    UWidgetComponent* ScreenWidget;
     
 protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

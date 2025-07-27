@@ -4,7 +4,6 @@
 #include "AInteractiveWidget.generated.h"
 
 class UCurveFloat;
-class UWidgetComponent;
 
 UCLASS(Abstract, Blueprintable)
 class ROBOQUEST_API AAInteractiveWidget : public AAInteractive {
@@ -19,8 +18,6 @@ public:
     void SetWidgetDisplay(bool bIsDisplay);
     
 protected:
-    UFUNCTION(BlueprintCallable, BlueprintNativeEvent, BlueprintPure)
-    UWidgetComponent* GetWidgetComponent() const;
     
 };
 

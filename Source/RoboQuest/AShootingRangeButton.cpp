@@ -1,5 +1,6 @@
 #include "AShootingRangeButton.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=StaticMeshComponent -FallbackName=StaticMeshComponent
+#include "Components/StaticMeshComponent.h"
 
 AAShootingRangeButton::AAShootingRangeButton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ButtonMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ButtonMesh"));

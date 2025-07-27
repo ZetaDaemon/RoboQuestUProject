@@ -5,7 +5,6 @@
 
 class UAnimSequence;
 class UBlendSpace;
-class UWidgetComponent;
 
 UCLASS(Abstract, Blueprintable)
 class ROBOQUEST_API AAMax : public AACharacter {
@@ -41,12 +40,6 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnBlueprintAssignText(const FName& TextRowName);
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UWidgetComponent* GetWidgetIndicatorComponent() const;
-    
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
-    UWidgetComponent* GetWidgetComponent() const;
     
 };
 

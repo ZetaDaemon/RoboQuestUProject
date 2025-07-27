@@ -2,67 +2,6 @@
 #include "Templates/SubclassOf.h"
 
 AALevelGenerator::AALevelGenerator(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
-    this->InfiniteTicketByRank[0] = 0;
-    this->InfiniteTicketByRank[1] = 0;
-    this->InfiniteTicketByRank[2] = 0;
-    this->InfiniteTicketByRank[3] = 0;
-    this->InfiniteTicketByRank[4] = 0;
-    this->InfiniteTicketByRank[5] = 0;
-    this->InfiniteRunEnemyLevel = 1;
-    this->CurrentInfiniteBossMusic = NULL;
-    this->CurrentInfiniteMusic = NULL;
-    this->InteriorInfiniteBossTileClass = NULL;
-    this->InfiniteBossHoleSpawnerClass = NULL;
-    this->CurrentInfiniteRunLevelAmount = 0;
-    this->CurrentInfiniteRunActAmount = 0;
-    this->AddEliteValue = 0;
-    this->AddBigValue = 0;
-    this->TrapMultiplier = 1.00f;
-    this->TicketModifier = 0;
-    this->bActivateTrap = false;
-    this->HeadbonkBubbleMutatorLuck = 0.00f;
-    this->EyeProtectionMutatorLuck = 0.00f;
-    this->TurretEmpowerMutatorLuck = 0.00f;
-    this->EnemyExplosionMutatorLuck = 0.00f;
-    this->bCommonGeneratorDataAssetInit = false;
-    this->StartTile = NULL;
-    this->EndLevelBeam = NULL;
-    this->DT_EnemyBoard = NULL;
-    this->RegularWorkerSpawnClass = NULL;
-    this->LoopingWorkerSpawnClass = NULL;
-    this->DT_MaxTexts = NULL;
-    this->InteractiveStoryClass = NULL;
-    this->OasisCorruptedDoorTimeLimit = 0.00f;
-    this->NasaDoorTimeLimit = 0.00f;
-    this->CorruptedRuinsArenaHealthPercentModifier = 0.00f;
-    this->CorruptedRuinsArenaImpactPercentModifier = 0.00f;
-    this->MPC_Corrupted = NULL;
-    this->MoonBossTileClassLoaded = NULL;
-    this->MoonBossTile = NULL;
-    this->MoonBossClassLoaded = NULL;
-    this->MoonBossMusic = NULL;
-    this->BossLayerClass = NULL;
-    this->BossLayer = NULL;
-    this->BossSequence = NULL;
-    this->NextBossID = 0;
-    this->StartingWorkerSplineMesh = NULL;
-    this->EndingWorkerSplineMesh = NULL;
-    this->BaseWorkerSplineMesh = NULL;
-    this->TrapClasses[0] = NULL;
-    this->TrapClasses[1] = NULL;
-    this->TrapClasses[2] = NULL;
-    this->TrapClasses[3] = NULL;
-    this->TrapClasses[4] = NULL;
-    this->TrapClasses[5] = NULL;
-    this->TrapClasses[6] = NULL;
-    this->TrapClasses[7] = NULL;
-    this->TrapClasses[8] = NULL;
-    this->TrapClasses[9] = NULL;
-    this->TrapClasses[10] = NULL;
-    this->GameInstanceRef = NULL;
-    this->GameModeRef = NULL;
-    this->GameStateRef = NULL;
-    this->LightSelectorRef = NULL;
 }
 
 void AALevelGenerator::UnlockEndActAchievement() {
@@ -323,10 +262,6 @@ bool AALevelGenerator::GetCorruptedLevelPathFromLocation(ETileType Location, FCo
 
 FCorruptedLevelPath AALevelGenerator::GetCorruptedLevelPath(int32 PathID) const {
     return FCorruptedLevelPath{};
-}
-
-TSoftObjectPtr<ULevelSequence> AALevelGenerator::GetCorruptedLevelArenaSequence() const {
-    return NULL;
 }
 
 FText AALevelGenerator::GetCorruptedLevelArenaName() const {

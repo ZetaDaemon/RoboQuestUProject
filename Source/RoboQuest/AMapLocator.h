@@ -10,15 +10,12 @@
 
 class AAPlayerController;
 class AActor;
-class UMapIconWidget;
 class UTexture2D;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class ROBOQUEST_API UAMapLocator : public UActorComponent {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TSubclassOf<UMapIconWidget> WidgetClass;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UTexture2D* Icon;
@@ -52,9 +49,6 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bPersistOnDestroy;
-    
-    UPROPERTY(EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
-    UMapIconWidget* Widgets[2];
     
 private:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))

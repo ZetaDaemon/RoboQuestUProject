@@ -1,5 +1,5 @@
 #include "AInteractive.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=BoxComponent -FallbackName=BoxComponent
+#include "Components/BoxComponent.h"
 #include "Net/UnrealNetwork.h"
 
 AAInteractive::AAInteractive(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
@@ -44,9 +44,6 @@ void AAInteractive::RemoveTicketCost() {
 }
 
 void AAInteractive::RemoveCustomCost() {
-}
-
-void AAInteractive::OnWidgetCompassLoaded(UUserWidget* NewWidget) {
 }
 
 void AAInteractive::OnUnloadPreviousLevel() {

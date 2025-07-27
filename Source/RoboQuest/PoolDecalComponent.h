@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 #include "Components/DecalComponent.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DecalComponent -FallbackName=DecalComponent
+#include "Components/DecalComponent.h"
 #include "PoolDecalComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

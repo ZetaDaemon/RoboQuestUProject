@@ -1,38 +1,12 @@
 #include "AInteractiveWeapon.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ParticleSystemComponent -FallbackName=ParticleSystemComponent
+#include "Particles/ParticleSystemComponent.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SceneComponent -FallbackName=SceneComponent
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SkeletalMeshComponent -FallbackName=SkeletalMeshComponent
 //CROSS-MODULE INCLUDE V2: -ModuleName=UMG -ObjectName=WidgetComponent -FallbackName=WidgetComponent
 #include "Net/UnrealNetwork.h"
 
 AAInteractiveWeapon::AAInteractiveWeapon(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
-    this->Scene = CreateDefaultSubobject<USceneComponent>(TEXT("Scene"));
-    this->Widget = CreateDefaultSubobject<UWidgetComponent>(TEXT("Widget"));
-    this->WeaponMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("WeaponMesh"));
-    this->WeaponBeam = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("WeaponBeam"));
-    this->WeaponStar = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("WeaponStar"));
-    this->WeaponMod = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("WeaponMod"));
-    this->SpawnedWeapon = NULL;
-    this->WeaponClass = NULL;
-    this->WeaponLevel = 0;
-    this->BaseRandomSeed = 0;
-    this->AffixAmount = -1;
-    this->MetaRewardModifier = EWeaponMetaRewardModifier::Base;
-    this->TooltipRef = NULL;
-    this->bDebugOffset = false;
-    this->bInitialized = false;
-    this->WeaponStarFX = NULL;
-    this->WeaponModFX = NULL;
-    this->WeaponStarDynamicMaterial = NULL;
-    this->WeaponModDynamicMaterial = NULL;
-    this->LootedSoundLoaded = NULL;
-    this->bAlreadyInteracted = false;
-    this->Scene->SetupAttachment(RootComponent);
-    this->Widget->SetupAttachment(Scene);
-    this->WeaponMesh->SetupAttachment(RootComponent);
-    this->WeaponBeam->SetupAttachment(RootComponent);
-    this->WeaponStar->SetupAttachment(Scene);
-    this->WeaponMod->SetupAttachment(Scene);
 }
 
 void AAInteractiveWeapon::UpdateWeaponStarIcon() {
